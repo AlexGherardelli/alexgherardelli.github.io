@@ -1,5 +1,6 @@
 collections:
     portfolio:
-        permalink: /projects/:path/
+        # permalink: /projects/:path/
+    projects:
     
 permalink: /:day/:month/:year/:title/

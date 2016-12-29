@@ -1,0 +1,19 @@
+
+{% for modal in site.projects %}
+<div id="#{{ modal.modalID }}">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div id="btn-close-modal" class="close-animatedModal">
+        <i class="fa fa-times fa-3x" aria-hidden="true"></i>
+    </div>
+
+    <div class="modal-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>{{ modal.title }}</h1>
+                    {{ modal.content }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
