@@ -2,7 +2,7 @@
 {% for modal in site.projects %}
 <div id="{{ modal.projectID }}">
     <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
-    <div id="btn-close-modal" class="close-animatedModal">
+    <div id="btn-close-modal" class="close-{{ modal.projectID }}">
         <i class="fa fa-times fa-3x" aria-hidden="true"></i>
     </div>
 
