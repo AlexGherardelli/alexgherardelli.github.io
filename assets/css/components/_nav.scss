@@ -1,0 +1,23 @@
+/*******************************/
+/*       NAVBAR           */
+/*****************************/
+
+.navbar {
+    background: transparent;
+    color: $dark;
+    border: none;
+}
+.fa-home{
+  color: $medium;
+}
+.fa-home:hover{
+    color: $primary;
+}
+.navbar-right * {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: $primary;
+}

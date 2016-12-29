@@ -1,0 +1,33 @@
+/*******************************/
+/*           BLOG             */
+/*****************************/
+
+.blog{
+  padding-top: 5%;
+}
+.blog-title, .blog-subtitle{
+  margin: 0;
+  line-height: 1;
+}
+.blog-title:hover{
+  color: $accent;
+}
+
+.blog-subtitle{
+  @extend .presentation-subtitle;
+  text-align: left;
+  margin: 10px 0 20px 0;
+}
+.blog-timestamp{
+  color: $medium;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-family: $serif;
+  margin: 0;
+}
+.blog-img{
+  height: 100px;
+  width: 100px;
+  margin: 0 0 0 60%;
+}

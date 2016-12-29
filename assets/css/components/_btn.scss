@@ -1,0 +1,23 @@
+/*******************************/
+/*       BUTTONS              */
+/*****************************/
+
+
+.btn {
+    margin: 0px 40px;
+    // border: 1px $primary solid;
+    width: 150px;
+    background: $primary;
+    color: white;
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:target,
+.btn:active:focus{
+  border: 1px $primary solid;
+  background: transparent;
+  color: $primary;
+}

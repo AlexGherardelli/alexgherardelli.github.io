@@ -1,0 +1,62 @@
+/*******************************/
+/*       TYPOGRPAHY           */
+/*****************************/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: $primary;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.333rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+}
+
+h4 {
+    font-size: 1.125rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.875rem;
+}
+
+p, a, button, li {
+    line-height: 1.833rem;
+    font-size: 1rem;
+}
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.01rem;
+  line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover, a:active{
+  text-decoration: none;
+  font-weight: 600;
+  color: $primary;
+}
+hr{
+  width: 30%;
+  margin-bottom: 30px;
+}
+.section-title{
+    text-align: center;
+    padding: 40px 0;
+}

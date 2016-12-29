@@ -1,0 +1,30 @@
+/*******************************/
+/*       FOOTER               */
+/*****************************/
+
+.footer {
+    text-align: center;
+    background: $light;
+    color: $dark;
+    display: flex;
+}
+
+.footer .row {
+    margin: auto;
+    padding: 20px 0;
+}
+
+.footer p {
+    font-size: 0.8rem;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.social {
+    margin: 0 20px;
+    font-weight: 600;
+}

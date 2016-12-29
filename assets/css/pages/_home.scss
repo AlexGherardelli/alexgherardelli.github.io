@@ -1,0 +1,32 @@
+/*******************************/
+/*       HOME:   ;           */
+/*****************************/
+.home{
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.presentation-buttons {
+    text-align: center;
+}
+
+.presentation-title{
+  color: $accent;
+}
+.presentation-subtitle {
+    font-weight: 300;
+    // font-style: italic;
+    color: $medium;
+    font-family: $sans;
+    text-align: center;
+    line-height: 0.6;
+    margin-bottom: 60px;
+}
+
+.profile-picture {
+    margin: -30px auto 30px ;
+    height: 180px;
+}

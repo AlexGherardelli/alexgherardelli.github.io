@@ -1,0 +1,5 @@
+collections:
+    portfolio:
+        permalink: /projects/:path/
+    
+permalink: /:day/:month/:year/:title/

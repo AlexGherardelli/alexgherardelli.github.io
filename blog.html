@@ -1,0 +1,22 @@
+--- 
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<section class="container blog">
+  {% for post in site.posts %}
+    <a class="blog-article" href="{{ post.url }}">
+        <div class="row content-row blog-item">
+            <div class="col-xs-4"><img class="img-responsive img-circle blog-img" src="http://www.vogue.com/wp-content/uploads/2015/02/10/llamas-and-haircuts-prince-harry1.jpg" /></div>
+            <div class="col-xs-8">
+                <p class="blog-timestamp">  {{ post.date | date: "%d %B %Y" }} </p>
+                <h2 class="blog-title">{{ post.title }}</h2>
+                <h3 class="blog-subtitle">{{ post.excerpt | strip_html }}</h3>
+            </div>
+        </div>
+    </a>
+    <hr />
+    {% endfor %}
+</section>
+        
