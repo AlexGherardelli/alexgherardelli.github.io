@@ -1,6 +1,6 @@
 ---
 image_path: http://placehold.it/750x450
-category: Web Design
-project_name: FAO
+category: Design
+project_name: Educational brochures
 link: https://google.com
 ---
