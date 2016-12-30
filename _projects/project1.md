@@ -1,6 +1,6 @@
 ---
 title: Hello there
-projectID: modal-01
+modalID: modal-01
 
 ---
 
