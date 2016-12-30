@@ -2,5 +2,6 @@
 image_path: http://placehold.it/750x450
 category: Design
 project_name: Educational brochures
-link: https://google.com
+modalID: modal-05
+projectID: project-05
 ---

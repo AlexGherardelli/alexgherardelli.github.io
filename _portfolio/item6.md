@@ -2,5 +2,6 @@
 image_path: http://placehold.it/750x450
 category: Copywriting
 project_name: Writing examples
-link: https://google.com
+modalID: modal-06
+projectID: project-06
 ---
