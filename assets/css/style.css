@@ -59,8 +59,7 @@ hr {
   margin-bottom: 30px; }
 
 .section-title {
-  text-align: center;
-  padding: 40px 0; }
+  text-align: center; }
 
 /*******************************/
 /*       BASE                 */
@@ -203,6 +202,9 @@ section {
 .row.no-gutter.portfolio-row {
   display: block; }
 
+#portfolio {
+  margin-top: 40px; }
+
 .portfolio-item {
   position: relative;
   display: block;
@@ -290,7 +292,6 @@ section {
   color: #ef5f5a; }
 
 .blog-subtitle {
-  text-align: left;
   margin: 10px 0 20px 0; }
 
 .blog-timestamp {
@@ -302,9 +303,9 @@ section {
   margin: 0; }
 
 .blog-img {
-  height: 100px;
-  width: 100px;
-  margin: 0 0 0 60%; }
+  width: 150px;
+  height: 150px;
+  margin: 0 auto; }
 
 /*******************************/
 /*           MEDIA             */

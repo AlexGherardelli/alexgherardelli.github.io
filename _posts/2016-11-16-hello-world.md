@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Hello, world!"
+image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
 ---
 
 I've been wanting to open a blog for quite some time now. So, here I am!

@@ -15,7 +15,6 @@
 
 .blog-subtitle{
   @extend .presentation-subtitle;
-  text-align: left;
   margin: 10px 0 20px 0;
 }
 .blog-timestamp{
@@ -26,8 +25,8 @@
   font-family: $serif;
   margin: 0;
 }
-.blog-img{
-  height: 100px;
-  width: 100px;
-  margin: 0 0 0 60%;
+.blog-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
 }
