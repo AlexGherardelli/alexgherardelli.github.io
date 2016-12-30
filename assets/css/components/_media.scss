@@ -2,12 +2,35 @@
 /*           MEDIA             */
 /*****************************/
 
+// Extra small screens
+@media (max-width: 599px) {
+  .blog-meta p {
+    padding: 0 20%;
+  }
+  .blog-header>h1 {
+    margin: 15px;
+    padding: 15px;
+  }
+}
 
-@media (min-width: 960px) {
-  .home{
+// Small screens
+// @media (min-width: 600px) {
+
+// }
+
+// Medium screens
+@media (min-width: 900px) {
+  .home {
     justify-content: center;
     align-items: flex-start;
     margin-top: 50px;
   }
-
 }
+
+// Large screens
+// @media (min-width: 1200px) {
+// }
+
+// // Ultra-large screens
+// @media (min-width: 1800px) {
+// }
