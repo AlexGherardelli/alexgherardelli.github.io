@@ -1,6 +1,37 @@
+# Site settings
+
+# Permalink, markdown and highlighter
+permalink: /:day/:month/:year/:title/
+
+# SEO settings
+title: 
+description: > # this means to ignore newlines until "baseurl:"
+  A blog on geeky stuff
+keywords: 
+
+
+# Author settings
+author:
+    name:             Alessandra Gherardelli
+    facebook:         alexgherardelli
+    # twitter:          your-id
+    github:           AlexGherardelli
+    linkedin:         alessandragherardelli
+    # medium:           your-id
+    # tumblr:           your-id
+    # dribble:          your-id
+    # behance:          your-id
+    email:           alessandra.gherardelli@gmail.com
+
+# Timezones
+timezone:           Europe/Rome
+
+# Collections settings
 collections:
     portfolio:
         # permalink: /projects/:path/
     projects:
-    
-permalink: /:day/:month/:year/:title/
+
+
+
+

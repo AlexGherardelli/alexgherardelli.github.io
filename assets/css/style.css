@@ -98,7 +98,8 @@ section {
   border: none; }
 
 .fa-home {
-  color: #bbb; }
+  color: #bbb;
+  margin: 0 20px; }
 
 .fa-home:hover {
   color: #118ab2; }
@@ -145,7 +146,8 @@ section {
   background: #118ab2;
   color: white;
   font-weight: 300;
-  font-size: 1.125rem; }
+  font-size: 1.125rem;
+  margin-bottom: 10px; }
 
 .btn:hover,
 .btn:active,
@@ -177,7 +179,7 @@ section {
   color: #bbb;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   text-align: center;
-  line-height: 0.6;
+  line-height: 1;
   margin-bottom: 60px; }
 
 .profile-picture {
@@ -232,7 +234,7 @@ section {
   transform: translateY(-50%); }
 
 .portfolio-item:hover .portfolio-item-caption {
-  opacity: 0.6; }
+  opacity: 0.8; }
 
 .portfolio-item:focus {
   outline: 0; }
@@ -242,8 +244,15 @@ section {
 
 .project-category,
 .project-name {
-  color: white;
+  color: white; }
+
+.project-name {
+  font-weight: 400;
   font-size: 1.25rem; }
+
+.project-category {
+  font-size: 1rem;
+  text-transform: uppercase; }
 
 #btn-close-modal {
   width: 100%;

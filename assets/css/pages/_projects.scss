@@ -46,7 +46,7 @@
 }
 
 .portfolio-item:hover .portfolio-item-caption {
-	opacity: 0.6;
+	opacity: 0.8;
 }
 
 .portfolio-item:focus {
@@ -60,7 +60,16 @@
 .project-category,
 .project-name {
 	color: white;
+}
+
+.project-name {
+	font-weight: 400;
 	font-size: 1.25rem;
+}
+
+.project-category {
+	font-size: 1rem;
+	text-transform: uppercase;
 }
 
 // Modal
