@@ -112,6 +112,10 @@ section {
 .navbar-default .navbar-nav > li > a:hover {
   color: #118ab2; }
 
+.navbar-default .navbar-nav > li > a.active {
+  color: #ef5f5a;
+  font-weight: 600; }
+
 /*******************************/
 /*       FOOTER               */
 /*****************************/

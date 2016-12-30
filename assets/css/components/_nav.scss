@@ -22,3 +22,7 @@
 .navbar-default .navbar-nav>li>a:hover{
   color: $primary;
 }
+.navbar-default .navbar-nav>li>a.active{
+    color: $accent;
+    font-weight: 600;
+}
