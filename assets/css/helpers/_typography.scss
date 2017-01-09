@@ -2,65 +2,112 @@
 /*       TYPOGRPAHY           */
 /*****************************/
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    color: $primary;
+body {
+  font-size: 100%;
 }
 
-h1 {
-    font-size: 2.5rem;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size-adjust: 0.5;
 }
 
-// h2 {
-//     font-size: 2.333rem;
-// }
 
-// h3 {
-//     font-size: 1.375rem;
-// }
+/* Body Content */
 
-// h4 {
-//     font-size: 1.125rem;
-// }
+p {
+  font-size: 1em;
+  /* equivalent to 16px */
+  line-height: 1.25;
+  /* equivalent to 20px */
+}
 
-// h5 {
-//     font-size: 1rem;
-// }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: $primary;
+}
 
-// h6 {
-//     font-size: 0.875rem;
-// }
-
-// p, a, button, li, input {
-//     line-height: 1.833rem;
-//     // font-size: 1rem;
-// }
 p {
   font-family: 'Merriweather', serif;
-//   font-size: 1rem;
   margin-bottom: 1rem;
   letter-spacing: 0.01rem;
-//   line-height: 2rem;
-    line-height: 1.375rem;
+  line-height: 2rem;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-a:hover, a:active{
+
+a:hover,
+a:active {
   text-decoration: none;
   font-weight: 600;
   color: $primary;
 }
-hr{
+
+hr {
   width: 30%;
   margin-bottom: 30px;
 }
-.section-title{
-    text-align: center;
+
+.section-title {
+  text-align: center;
 }
 
-.content li{
+// li element within a content block
+.content li {
   font-family: $serif;
+}
+
+/* Homepage typography */
+.home-title{
+  color: $accent;
+}
+
+.home-subtitle {
+    font-weight: 300;
+    color: $medium;
+    font-family: $sans;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+
+
+/* Blog typography */
+.blog-title,
+.blog-subtitle {
+  margin: 0;
+  line-height: 1;
+}
+
+.blog-title:hover,
+.blog-title:focus,
+.blog-title:active {
+  color: $accent;
+}
+
+.blog-subtitle {
+  @extend .home-subtitle;
+  margin: 10px 0;
+}
+
+.blog-timestamp {
+  color: $medium;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-family: $sans;
+  margin: 0 0 5px 0;
+  font-weight: 300;
+  text-align: right;
 }

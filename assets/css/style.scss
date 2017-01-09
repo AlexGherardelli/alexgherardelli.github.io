@@ -1,27 +1,17 @@
 // // Reset stylesheet
 // @import "_reset.scss";
 
-// Variables and helper classes
+// Variables, mixins and helper classes
 @import "helpers/_helpers.scss";
-// Mixins
-@import "helpers/_mixins.scss";
-// Typography
+ // Typography
 @import "helpers/_typography.scss";
-// Basic layout
-@import "pages/_base.scss";
+// Layout
+@import "pages/_layout.scss";
 // Navigation
 @import "components/_nav.scss";
 // Footer
 @import "components/_footer.scss";
 // Buttons
 @import "components/_btn.scss";
-// Home page styling
-@import "pages/_home.scss";
-// About page styling
-@import "pages/_about.scss";
-// Portfolio page styling
-@import "pages/_projects.scss";
-// Blog pages styling
-@import "pages/_blog.scss";
 // Media queries
 @import "helpers/_media.scss"

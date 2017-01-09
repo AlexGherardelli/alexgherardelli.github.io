@@ -1,35 +1,56 @@
-/*
-// $coral: #ef5f5a;
-// $carmine: #ed564e;
-// $light-grey: #f7f7f7;
-// $dark-grey: #2e333b;
 /*******************************/
-/*           HELPERS          */
+/*           VARIABLES        */
 /*****************************/
+.center {
+  margin: 0 auto;
+  justify-content: center; }
+
 /*******************************/
 /*           MIXINS          */
 /*****************************/
 /*******************************/
 /*       TYPOGRPAHY           */
 /*****************************/
-h1, h2, h3, h4, h5, h6 {
+body {
+  font-size: 100%; }
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size-adjust: 0.5; }
+
+/* Body Content */
+p {
+  font-size: 1em;
+  /* equivalent to 16px */
+  line-height: 1.25;
+  /* equivalent to 20px */ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   color: #118ab2; }
-
-h1 {
-  font-size: 2.5rem; }
 
 p {
   font-family: 'Merriweather', serif;
   margin-bottom: 1rem;
   letter-spacing: 0.01rem;
-  line-height: 1.375rem; }
+  line-height: 2rem; }
 
 a {
   text-decoration: none;
   color: inherit; }
 
-a:hover, a:active {
+a:hover,
+a:active {
   text-decoration: none;
   font-weight: 600;
   color: #118ab2; }
@@ -43,6 +64,41 @@ hr {
 
 .content li {
   font-family: "Merriweather", serif; }
+
+/* Homepage typography */
+.home-title {
+  color: #ef5f5a; }
+
+.home-subtitle, .blog-subtitle {
+  font-weight: 300;
+  color: #bbb;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 60px; }
+
+/* Blog typography */
+.blog-title,
+.blog-subtitle {
+  margin: 0;
+  line-height: 1; }
+
+.blog-title:hover,
+.blog-title:focus,
+.blog-title:active {
+  color: #ef5f5a; }
+
+.blog-subtitle {
+  margin: 10px 0; }
+
+.blog-timestamp {
+  color: #bbb;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0 0 5px 0;
+  font-weight: 300;
+  text-align: right; }
 
 /*******************************/
 /*       BASE                 */
@@ -75,80 +131,7 @@ section {
   justify-content: center; }
 
 /*******************************/
-/*       NAVBAR           */
-/*****************************/
-.navbar {
-  background: transparent;
-  color: #333;
-  border: none; }
-
-.fa-home {
-  color: #bbb;
-  margin: 0 20px; }
-
-.fa-home:hover {
-  color: #118ab2; }
-
-.navbar-right * {
-  font-size: 1rem;
-  font-weight: 300;
-  text-transform: uppercase; }
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #118ab2; }
-
-.navbar-default .navbar-nav > li > a.active {
-  color: #ef5f5a;
-  font-weight: 600; }
-
-/*******************************/
-/*       FOOTER               */
-/*****************************/
-.footer {
-  text-align: center;
-  background: #efefef;
-  color: #333;
-  display: flex; }
-
-.footer .row {
-  margin: auto;
-  padding: 20px 0; }
-
-.footer p {
-  font-size: 0.8rem; }
-
-.social-buttons {
-  display: flex;
-  justify-content: center;
-  align-content: space-between; }
-
-.social {
-  margin: 0 20px;
-  font-weight: 600; }
-
-/*******************************/
-/*       BUTTONS              */
-/*****************************/
-.btn {
-  margin: 0px 40px;
-  width: 150px;
-  background: #118ab2;
-  color: white;
-  font-weight: 300;
-  font-size: 1.125rem;
-  margin-bottom: 10px; }
-
-.btn:hover,
-.btn:active,
-.btn:focus,
-.btn:target,
-.btn:active:focus {
-  border: 1px #118ab2 solid;
-  background: transparent;
-  color: #118ab2; }
-
-/*******************************/
-/*       HOME:   ;           */
+/*       HOMEPAGE             */
 /*****************************/
 .home {
   justify-content: center;
@@ -157,27 +140,33 @@ section {
   text-align: center;
   padding-bottom: 80px; }
 
-.presentation-buttons {
-  text-align: center; }
-
-.presentation-title {
-  color: #ef5f5a; }
-
-.presentation-subtitle, .blog-subtitle {
-  font-weight: 300;
-  color: #bbb;
-  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  text-align: center;
-  line-height: 1;
-  margin-bottom: 60px; }
-
-.profile-picture {
+.home-profile {
   margin: -30px auto 30px;
   height: 180px; }
 
 /*******************************/
-/*           ABOUT             */
+/*           BLOG             */
 /*****************************/
+.blog {
+  padding-top: 5%; }
+
+.blog-header {
+  margin: 0;
+  padding: 0; }
+
+.blog-cover {
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 300px; }
+
+.blog-img {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  object-fit: cover;
+  overflow: hidden; }
+
 /*******************************/
 /*           PROJECTS             */
 /*****************************/
@@ -261,66 +250,105 @@ section {
   box-shadow: none; }
 
 /*******************************/
-/*           BLOG             */
+/*       NAVBAR           */
 /*****************************/
-.blog {
-  padding-top: 5%; }
+.navbar {
+  background: transparent;
+  color: #333;
+  border: none; }
 
-.blog .row {
-  display: block; }
-
-.blog-header {
-  margin: 0;
-  padding: 0; }
-
-.blog-cover {
-  background-size: cover;
-  object-fit: cover;
-  width: 100%;
-  height: 300px; }
-
-.blog-title,
-.blog-subtitle {
-  margin: 0;
-  line-height: 1; }
-
-.blog-title:hover,
-.blog-title:focus,
-.blog-title:active {
-  color: #ef5f5a; }
-
-.blog-subtitle {
-  margin: 10px 0; }
-
-.blog-meta p {
-  display: inline;
-  padding: 0 10%; }
-
-.blog-timestamp, .blog-author {
+.fa-home {
   color: #bbb;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 0.8rem;
-  font-family: "Merriweather", serif;
-  margin: 0;
+  margin: 0 20px; }
+
+.fa-home:hover {
+  color: #118ab2; }
+
+.navbar-right * {
+  font-size: 1rem;
+  font-weight: 300;
+  text-transform: uppercase; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #118ab2; }
+
+.navbar-default .navbar-nav > li > a.active {
+  color: #ef5f5a;
   font-weight: 600; }
 
-.blog-author {
-  text-transform: capitalize;
-  font-weight: 400;
-  letter-spacing: 0px; }
+/*******************************/
+/*       FOOTER               */
+/*****************************/
+.footer {
+  text-align: center;
+  background: #efefef;
+  color: #333;
+  display: flex; }
 
-.blog-img {
-  width: 100px;
-  height: 100px;
-  margin: 10px auto;
-  object-fit: cover;
-  overflow: hidden; }
+.footer .row {
+  margin: auto;
+  padding: 20px 0; }
+
+.footer p {
+  font-size: 0.8rem; }
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: space-between; }
+
+.social {
+  margin: 0 20px;
+  font-weight: 600; }
+
+/*******************************/
+/*       BUTTONS              */
+/*****************************/
+.btn {
+  margin: 0px 40px;
+  width: 150px;
+  background: #118ab2;
+  color: white;
+  font-weight: 300;
+  font-size: 1.125rem;
+  margin-bottom: 10px; }
+
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:target,
+.btn:active:focus {
+  border: 1px #118ab2 solid;
+  background: transparent;
+  color: #118ab2; }
 
 /*******************************/
 /*           MEDIA             */
 /*****************************/
 @media (max-width: 599px) {
+  h1 {
+    font-size: 2.5em;
+    /* 2.5x body copy size = 40px */
+    line-height: 1.125; }
+
+  h2 {
+    font-size: 2em;
+    /* 2x body copy size = 32px */
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.5em;
+    /* 1.5x body copy size = 24px */
+    line-height: 1.25; }
+
+  h4 {
+    line-height: 1.22222222;
+    /* (22px / 18px */ }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.5; }
+
   .blog-meta p {
     padding: 0 20%; }
 
@@ -330,6 +358,28 @@ section {
 
   .social-button {
     flex-direction: column; } }
+@media (min-width: 600px) {
+  h1 {
+    font-size: 3em;
+    /* 3x body copy size = 48px */
+    line-height: 1.05;
+    /* keep to a multiple of the 20px line height 
+    and something more appropriate for display headings */ }
+
+  h2 {
+    font-size: 2.25em;
+    /* 2.25x body copy size = 36px */
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.75em;
+    /* 1.75x body copy size = 28px */
+    line-height: 1.25; }
+
+  h4 {
+    font-size: 1.125em;
+    /* 1.125x body copy size = 18px */
+    line-height: 1.11111111; } }
 @media (min-width: 900px) {
   .home {
     justify-content: center;

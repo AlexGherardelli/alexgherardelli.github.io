@@ -8,10 +8,9 @@ permalink: /blog/
     <div class="container blog">
         {% for post in site.posts %}
         <a class="blog-article" href="{{ post.url }}">
-            <div class="row">
-                <div class="col-md-12 text-center">
+            <div class="row center text-center">
+                <div class="col-md-6 col-xs-12">
                     <img class="img-responsive img-circle blog-img" src="{{ post.image_thumb }}" />
-                        <p class="blog-timestamp"> {{ post.date | date: "%d %B %Y" }} </p>
                         <h2 class="blog-title">{{ post.title }}</h2>
                         <h3 class="blog-subtitle">{{ post.excerpt | strip_html }}
                     </h3>

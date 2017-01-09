@@ -1,18 +1,6 @@
-/*
-// $coral: #ef5f5a;
-// $carmine: #ed564e;
-// $light-grey: #f7f7f7;
-// $dark-grey: #2e333b;
 /*******************************/
-/*           HELPERS          */
+/*           VARIABLES        */
 /*****************************/
-
-
-// $sea-blue: #03425c;
-// $light-purple: #900C3E;
-// $purple: #571845;
-// $seaweed: #118ab2;
-// $persian-green: #00a896;*/
 
 $primary: #118ab2;
 $accent: #ef5f5a;
@@ -22,3 +10,33 @@ $light: #efefef;
 
 $sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $serif: 'Merriweather', serif;
+
+
+
+.center{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/*******************************/
+/*           MIXINS          */
+/*****************************/
+
+
+// https://medium.freecodecamp.com/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862#.9w177w87l
+
+// @mixin for-phone-only {
+//   @media (max-width: 599px) { @content; }
+// }
+// @mixin for-tablet-portrait-up {
+//   @media (min-width: 600px) { @content; }
+// }
+// @mixin for-tablet-landscape-up {
+//   @media (min-width: 900px) { @content; }
+// }
+// @mixin for-desktop-up {
+//   @media (min-width: 1200px) { @content; }
+// }
+// @mixin for-big-desktop-up {
+//   @media (min-width: 1800px) { @content; }
+// }
