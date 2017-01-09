@@ -1,5 +1,5 @@
 ---
-image_path: http://placehold.it/750x450
+image_path: ../assets/images/flyers.png
 category: Design
 project_name: CFS Event Flyers
 modalID: modal-04

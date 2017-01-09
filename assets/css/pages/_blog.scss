@@ -4,12 +4,20 @@
 .blog {
   padding-top: 5%;
 }
+
+
 .blog .row{
   display: block;
 }
 .blog-header{
   margin: 0;
   padding: 0;
+}
+.blog-cover {
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
 }
 
 .blog-title,
@@ -26,7 +34,7 @@
 
 .blog-subtitle {
   @extend .presentation-subtitle;
-  margin: 10px 0 20px 0;
+  margin: 10px 0;
 }
 .blog-meta p{
   display: inline;
@@ -50,18 +58,10 @@
   
 }
 .blog-img {
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
   object-fit: cover; // Add a polyfill for this feature
   overflow: hidden;
 }
 
-
-
-.blog-cover {
-  background-size: cover;
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-}

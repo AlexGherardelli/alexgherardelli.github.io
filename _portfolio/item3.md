@@ -1,7 +1,7 @@
 ---
-image_path: http://placehold.it/750x450
-category: Design, Web Design
-project_name: CFS43 - Side Event communication package
+image_path: ../assets/images/twitter.png
+category: Social media
+project_name: CFS Social Media
 modalID: modal-03
 projectID: project-03
 ---

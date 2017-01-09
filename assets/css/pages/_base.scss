@@ -7,7 +7,7 @@ html, body {
     width: 100%;
     padding: 0;
     margin: 0;
-    font-size: 18px; //2vw
+    font-size: 16px; //2vw
     font-family: $sans;
     background: white;
     color: #333;
@@ -25,7 +25,10 @@ section{
 
 .row {
   display: flex;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+.content{
+  justify-content: center;
+}

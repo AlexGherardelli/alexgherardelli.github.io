@@ -1,5 +1,5 @@
 ---
-image_path: http://placehold.it/750x450
+image_path: ../assets/images/writing.jpg
 category: Copywriting
 project_name: Writing examples
 modalID: modal-06
