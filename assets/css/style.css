@@ -179,9 +179,8 @@ section {
 .portfolio-item {
   position: relative;
   display: block;
-  max-width: 50%;
   padding: 0;
-  margin: 0; }
+  margin: 10px; }
 
 .portfolio-item .portfolio-item-caption {
   color: #fff;
@@ -384,6 +383,9 @@ section {
   .home {
     justify-content: center;
     align-items: flex-start;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  .portfolio-item {
+    max-width: 47%; } }
 
 /*# sourceMappingURL=style.css.map */
