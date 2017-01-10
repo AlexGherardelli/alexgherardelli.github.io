@@ -1,6 +1,6 @@
 --- 
 layout: page 
-title: Projects
+title: What I do
 permalink: /projects/
 ---
 
@@ -12,7 +12,9 @@ permalink: /projects/
             <a class="portfolio-link" id="{{ item.projectID }}" href="#{{ item.modalID }}"> <img class="img-responsive" src="{{ item.image_path }}" alt="{{ item.project_name }}">
                 <div class="portfolio-item-caption">
                     <div class="portfolio-item-caption-content">
+                        {% if item.category %}
                         <div class="project-category">{{ item.category }}</div>
+                        {% endif %}
                         <h5 class="project-name"> {{ item.project_name }}</h5>
                     </div>
                 </div>

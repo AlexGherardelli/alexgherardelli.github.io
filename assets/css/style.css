@@ -179,7 +179,7 @@ section {
 .portfolio-item {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 50%;
   padding: 0;
   margin: 0; }
 
@@ -225,7 +225,7 @@ section {
 
 .project-name {
   font-weight: 400;
-  font-size: 1.25rem; }
+  font-size: 1.5rem; }
 
 .project-category {
   font-size: 1rem;
