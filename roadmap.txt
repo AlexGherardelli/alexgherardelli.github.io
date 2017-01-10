@@ -1,9 +1,13 @@
 ROADMAP
-
-* Fix responsiveness in all website
-* Add Porfolio photos and categories
-* Add Portfolio pages
+* Change hover effect (NiceLily): https://tympanus.net/Development/HoverEffectIdeas/index.html
+* Add Portfolio content
+    - Create Behance portfolio for graphic design
 * Add 5 blog posts (and plan 5-6)
+    - How to make decent presentations
+    - Making this website with Jekyll
+    - Google Analytics for non-profits and international organizations
+* Implementing SEO best practices
+* Implementing Google Analytics
 * Publish online
 
 II ROUND
