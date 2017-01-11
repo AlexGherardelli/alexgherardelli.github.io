@@ -9,7 +9,7 @@ permalink: /projects/
 
         {% for item in site.portfolio %}
         <div class="col-xs-12 portfolio-item">
-            <a class="portfolio-link" id="{{ item.projectID }}" href="#{{ item.modalID }}"> <img class="img-responsive" src="{{ item.image_path }}" alt="{{ item.project_name }}">
+            <a class="portfolio-link" id="{{ item.projectID }}" href="#{{ item.modalID }}"> <img class="img-responsive portfolio-img" src="{{ item.image_path }}" alt="{{ item.project_name }}">
                 <div class="portfolio-item-caption">
                     <div class="portfolio-item-caption-content">
                         {% if item.category %}
