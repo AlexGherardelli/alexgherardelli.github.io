@@ -194,9 +194,6 @@ section {
   height: 100%;
   transition: all 0.35s; }
 
-.portfolio-img {
-  height: 300px; }
-
 .btn-default.active,
 .btn-default:active,
 .btn-primary.active,

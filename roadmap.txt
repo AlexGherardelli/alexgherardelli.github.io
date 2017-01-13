@@ -1,6 +1,7 @@
 ROADMAP
 
 * Fix responsiveness in all website
+* Fix li in modal pages + fix links so that they are more visible.
 * Add Porfolio photos and categories
 * Add Portfolio pages
 * Add 5 blog posts (and plan 5-6)
