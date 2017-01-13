@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Google Analytics for non-profits and international organizations
+image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
+
 ---
 
 > Write like you were holding a seminar to your colleagues

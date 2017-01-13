@@ -1,6 +1,7 @@
 ---
 layout: post
 status: draft
+image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
 title: Post ideas
 ---
 # Post ideas

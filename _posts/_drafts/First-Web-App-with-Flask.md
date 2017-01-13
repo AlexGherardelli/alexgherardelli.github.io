@@ -1,3 +1,9 @@
+---
+layout: post
+image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
+title: How to use your favourite apps without admin rights
+---
+
 # What I learned from developing my first web app with Flask
 
 Hello, world!
