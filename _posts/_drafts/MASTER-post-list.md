@@ -1,13 +1,11 @@
 ---
 layout: post
 status: draft
-image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
 title: Post ideas
 ---
 # Post ideas
 
 * How to develop a Jekyll theme
-* How to install multiple application on Windows quickly
 * How much content should I have before launching a blog
 * How to do visualize a project timeline with Trello
 * How to do a decent presentation
@@ -27,6 +25,12 @@ title: Post ideas
 
 * Privacy vs algorithms & data collection
 * Something on typography
+* How to install multiple application on Windows quickly
 * Scribus tutorial
 * Book review "Hacker Hoxar Troll Spy"
 * MOOCs today
+* Communications guides for non-profits
+    - Communication plan & content strategy
+    - Branding and layouts
+    - Google Analytics
+    - Content writing and 

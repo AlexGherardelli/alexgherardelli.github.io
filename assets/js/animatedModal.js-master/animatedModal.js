@@ -7,7 +7,6 @@
 =========================================*/
 
 (function ($) {
- 
     $.fn.animatedModal = function(options) {
         var modal = $(this);
         
