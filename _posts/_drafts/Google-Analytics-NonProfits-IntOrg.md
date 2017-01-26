@@ -13,46 +13,27 @@ Although it is slightly geared towards commercial websites, it is a very flexibl
 
 This guide will assume a familiarity with the Google Analytics reporting interface. All examples are from my own work in the (Committee on World Food Security (CFS))[http://www.fao.org/cfs], where we have recently our web analytics strategy.
 
-## Prepare a measurement plan
+## Getting ready
 
-Before starting analyzing data, it is important to have a well-made **measurement plan**. A measurement plan defines the overall objectives and how to match these goals with Strameasurable targets. This will help also to stay on track and to measure only what we are really interested in.
+Before starting, it is important to have clear in mind what you want to measure and why. This step requires some times to set up a proper measurement plan, which defines the objectives and how to match them with measurable targets. A good measurement plan will also help you stay on track without getting distracted with the many stats available on Google Analytics.
 
-For the Committee on World Food Security (for now, CFS), I divided the measurement plan into 6 sections:
-- Overall goals
-- Strategies
-- Targets
-- Segmentation
-- Metrics and dimensions
-- Configuration
+A measurement plan will have these sections:
 
-### Goals
+- **Goals**: the high-level goals that we want to achieve with our outreach. Mission statements are usually a good starting point for this. Common goals for international and non-profit organizations include rising awareness, help visitors find information, raise donations, increase the number of volunteers and engage online commmunities.
+- **Strategies**: this section will include how you plan to achieve your goals. For example, you might want to improve the website usability to retain more users or set up an online donations system to raise funds.
+- **KPIs**: you will next to define your targets or key performance indicators (KPIs). Targets should be SMART: Specific, Measurable, Attainable, Relevant and Time-bound! In other words, make sure your targets are quantitative, feasable and relevant to your organization's mission.
 
-These are the high-level goals that we want to achieve with our outreach. Mission statements are usually a good starting point for this!
+Other things you should keep in mind at this point is how you would like to segment your data. Segmentation allows you to isolate and analyze subset of your data. Are you interested in your visitors' geographical location? Would you like to know if you users access your website on their laptop or on their phone? Or are you more interested to know who donates more, new or returning users?
 
-For example, CFS is a United Nations intergovernmental body for developing food security and nutrition policies. For our online outreach strategy I came up with three main goals:
-- Help visitors find information
-- Create awareness about our products and activities
-- Engage online communities
+## Getting started
+> Which features and metrics you should be keeping an eye on
 
-Other common goals that many organization may want to include is to raise donations or increase the number of volunteers.
 
-### Strategies
+## Implementing it
 
-Strategies are the tactics to achieve the main goals.
+* Talk to your developer
+* Decide how often you will check your data and create a report
 
-For CFS, I’ve decided that “Improving the website usability and content” would help visitors find they information they seek; that promoting our policy products, communications material and events would create awareness on CFS, and that to engage online communities we would consolidate our social media presence, write regularly on our blog and work on our newsletter. <!-- Rewrite this -->
 
-### Targets
 
-Targets should be SMART: Specific, Measurable, Attainable, Relevant and Time-bound!
-
-In the targets section, you should specify exactly what you want to obtain and: that 10% increase in newsletter subscriptions or 5% more visitors coming from East Asia!
-
-For CFS I exactly did that. I decided that in 2017, for example, we want more policy recommendations downloaded and that we’ll be tracking event attendance. We also want to improve our usability, and for that I'll use bounce rate and time on website as primary metrics.
-
-### Segmentation
-
-### Metrics and dimensions
-
-### Implementation plan
  
