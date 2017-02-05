@@ -9,7 +9,7 @@ image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
 
 Knowing what works and what doesn’t is one of the most effective ways to improve your website. After all, don't we all want to have successful, informative, interesting websites?
 
-Google Analytics is a one of most powerful tools in your toolbox to understand your users and improve their experience on your website. 
+Google Analytics is a one of most powerful tools in your toolbox to understand your users and improve their experience on your website.
 Although it is slightly geared towards commercial websites, it is very flexible and it can be successfully used by international organizations and non-profits to understand user behaviour online.
 
 ## Getting ready
@@ -39,13 +39,14 @@ The general health of your website is provided by only six metrics. Right, just 
 
 It is interesting to keep in mind how sessions, time on site and bounce rate are calculated. Here is a short, informative explaination of what these metrics are and how they are computed[link].
 
-Sessions, page views, users, bounce rate and time are very interesting metrics both for your website overall and for single pages. Bounce rates is, in particular, the single most important metric at your disposal, as it will highlight where your website's shortcomings are and how bad they are. Generally speaking, a bounce rate of 50% or lower is okay, between 60 and 65% is worrisome and above 65% is terrible - and requires your immediate attention.
-A very high bounce rate may mean that your users are not finding what they were looking for, either because of technical problems (e.g. a link is broken or the page takes too much time to load) or of content (e.g. they didn't like what they see). Unless you are analysing a blog or a one-page website, high bounce rates are **always** an indication of a problem, and you should do something to fix it!
+Sessions, page views, users, bounce rate and time are very interesting metrics both for your website overall and for single pages. Bounce rates is, in particular, the single most important metric at your disposal, as it will highlight where your website's shortcomings are and how bad are they. Generally speaking, a bounce rate of 50% or lower is okay, between 60 and 65% is worrisome and above 65% is terrible - and requires your immediate attention.
+A very high bounce rate may signify that your users are not finding what they were looking for, either because of technical problems, such as a broken link, or of content (e.g. they didn't like what they see). Unless you are analysing a blog or a one-page website, high bounce rates are **always** an indication of a problem, and you should do something to fix it!
 
 ### Other things you should be monitoring
 
 * Conversions (Goals)
 * Events
+* User flows
 * Landing pages / Exit pages
 * Campaigns and link tracking
 * Keywords and SEO
@@ -61,6 +62,3 @@ A very high bounce rate may mean that your users are not finding what they were 
 * Talk to your developer
 
 ## Test, maintain, refine!
-
-
- 
