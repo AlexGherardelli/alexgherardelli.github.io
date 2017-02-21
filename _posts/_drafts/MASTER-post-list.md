@@ -33,4 +33,4 @@ title: Post ideas
     - Communication plan & content strategy
     - Branding and layouts
     - Google Analytics
-    - Content writing and 
+    - Content writing

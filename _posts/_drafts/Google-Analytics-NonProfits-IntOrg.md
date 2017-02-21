@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Google Analytics for non-profits and international organizations
-image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
+image_thumb: 
 
 ---
 
-# Google Analytics for non-profits and international organizations: a primer
+# A primer on Google Analytics for non-profits, charities and international organizations
 
 Knowing what works and what doesn’t is one of the most effective ways to improve your website. After all, don't we all want to have successful, informative websites?
 
@@ -30,11 +30,12 @@ Other things you should keep in mind at this point is how you would like to segm
 Configuring Google Analytics to track everything you need may require the help of a techie or use [Google Tag Manager](https://support.google.com/tagmanager/answer/6102821?visit_id=1-636221681289895179-2873153591&rd=1), if already set up.
 Other than the basic analytics tag - a short Javascript snippet that keeps track of your data and sends it to Google servers for processing - these are few things you might want to implement on your website:
 
-* **Events**: Google Analytics only tracks page views by default, but with a bit of configuration (and the help of a developer) you can track any type of user interactions. Want to know if people are watching your videos? Add an event! Want to see if your user are downloading your reports? Yep, you guessed it, you need to add an event!
+* **Events**: Google Analytics only tracks page views by default, but with a bit of configuration (and the help of a developer) you can track any type of user interactions
+* . Want to know if people are watching your videos? Add an event! Want to see if your user are downloading your reports? Yep, you guessed it, you need to add an event!
 * **Goals**: Goals are there to help you tracking your measurement targets. A goal correspond to a user completing one activity (a conversion, in marketing terms). These could be something like signing up to the newsletter, donating an amout of money, recommending an article on social media or have a certain level of engagement with your website, like visiting more than 5 pages in one session. You can even prioritize your conversions with goal values: low priority may be worth 1 and high priority conversions may have a value of 100.
-* **Campaigns tracking**: Google Analytics automatically tracks some sources of traffic on your websites. The default ones are 'organic' (i.e. unpaid search results), referral (i.e. third-party websites) and direct (i.e. traffic from bookmarks or URL bar). To track tra
-* **Content grouping**:
-* **Keywords and SEO**
+* **Custom campaigns**: Google Analytics automatically tracks some sources of traffic on your websites (i.e. direct, search and referral). However, you can track about any source of traffic, for example coming from a specific social media or advertisement campaign, through *link tagging*. This tecnique allows to add additional information to links users click to get to your website. You can add the source of the traffic (```utm-source```, for example "July newsletter"), the marketing medium (```utm-medium```, for example "Email"), the campaign name (```utm-campaign```, for example "Summer promotion"). The easiest way to create these links is the [URL builder](https://ga-dev-tools.appspot.com/campaign-url-builder/), a free tool provided by Google itself; however, if you have more than a just a few links to tag, then a [spreadsheet with the appropriate formulas](http://linchpinseo.com/url-builder-google-analytics/) would be a quicker way to build many links.
+* **Content and channel grouping**: Let's say that you have a main website, blog and a private work space for your employees. You would like to have stats for these three parts of your website separate, so you can look how they are performing independently. You can create content groups to achieve this! These are just collection of content that can match Google Analytics reports with the logical structure of your website. If you have a big campaign that cross several marketing channels (e.g. social media, paid search, display ads), you might want to consider [channel grouping](https://support.google.com/analytics/answer/6010097?hl=en) as well.
+* * **Keywords and SEO**
 
 > **Resource point** If need in help in understanding, setting up and configuring anything in Google Analytics, the best resource out there is the [official documentation](https://support.google.com/analytics).
 
