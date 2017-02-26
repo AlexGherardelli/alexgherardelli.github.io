@@ -31,3 +31,7 @@ collections:
     # portfolio:
     #     # permalink: /projects/:path/
     # projects:
+
+sass:
+  sass_dir: css
+  style: compressed
