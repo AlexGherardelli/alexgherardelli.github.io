@@ -1,28 +1,5 @@
-  /*******************************/
-/*       TYPOGRPAHY           */
-/*****************************/
-
-body {
-  font-size: 18px;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size-adjust: 0.5;
-}
-
-
-/* Body Content */
-
-p {
-  font-size: 1em;
-  /* equivalent to 16px */
-  /* equivalent to 20px */
+body{
+  font-size: 100%;
 }
 
 h1,
@@ -33,21 +10,29 @@ h5,
 h6 {
   font-weight: 600;
   color: $primary;
+  margin-top: 2rem;
 }
 
-p {
-  font-family: $serif;
-  margin-bottom: 1rem;
+h4{
+  font-size: 1.45rem;
+}
+h5{
+  font-size: 1.35rem;
+}
+h6{
+  font-size: 1.25rem;
+}
+
+p, .content li {
+  font-family: 'Merriweather', serif;
+  font-size: .82rem;
+  line-height: 1.7;
   letter-spacing: 0.01rem;
-  line-height: 1.25;
 }
+p{
+  margin-bottom: 1rem;
 
-
-font-family: $serif;
-margin-bottom: 1rem;
-letter-spacing: 0.01rem;
-line-height: 1.25;
-
+}
 
 a {
   text-decoration: none;
@@ -83,6 +68,32 @@ hr {
     line-height: 1;
     margin-bottom: 60px;
 }
+/* Blog typography */
+.blog-title,
+.blog-subtitle {
+  margin: 0;
+  line-height: 1;
+}
+
+.blog-title:hover,
+.blog-title:focus,
+.blog-title:active {
+  color: $accent;
+}
+
+.blog-subtitle {
+  @extend .home-subtitle;
+  margin: 10px 0;
+}
+
+.blog-timestamp {
+  color: $medium;
+  text-transform: uppercase;
+  font-family: $sans;
+  margin-bottom: 25px;
+  font-weight: 300;
+  text-align: right;
+}
 
 
 /* Blog typography */
@@ -110,5 +121,5 @@ hr {
   font-family: $sans;
   margin: 0 0 5px 0;
   font-weight: 300;
-  text-align: right;
+  text-align: left;
 }

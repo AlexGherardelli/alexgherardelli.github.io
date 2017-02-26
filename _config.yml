@@ -34,7 +34,7 @@ collections:
 
 sass:
   sass_dir: css
-  style: compressed
+  style: extended
 
 markdown: kramdown
 highlighter: rouge
