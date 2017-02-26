@@ -2,11 +2,10 @@
 layout: post
 title: "A TL;DR guide to git"
 image_thumb: http://www.vogue.com/wp-content/uploads/2015/02/10/llamas-and-haircuts-prince-harry1.jpg
-cover_image: http://www.publicdomainpictures.net/pictures/160000/velka/llama-mccloud.jpg
 ---
 
 ## Should I learn Git?
-Yes, you should. 
+Yes, you should.
 
 ## Ok. Where do I start?
 

@@ -1,12 +1,10 @@
---- 
+---
 layout: default
 ---
 <section>
     <div class="container">
         <div class="row content">
             <div class="col-xs-12 col-md-7 content-blog">
-                            {% if page.cover_image %}
-            <img class="img-responsive blog-cover" src="{{ page.cover_image }}" /> {% endif %}
             <h1>{{ page.title }}</h1>
                 <p class="blog-timestamp">{{ page.date | date: "%d %B %Y" }}</p>
                 {{ content }}

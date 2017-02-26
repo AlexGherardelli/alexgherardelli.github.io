@@ -49,32 +49,6 @@ section{
     height: 180px;
 }
 
-/*******************************/
-/*           BLOG             */
-/*****************************/
-.blog {
-  padding-top: 5%;
-}
-
-.blog-header{
-  margin: 0;
-  padding: 0;
-}
-.blog-cover {
-  background-size: cover;
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-}
-
-.blog-img {
-  width: 100px;
-  height: 100px;
-  margin: 10px auto;
-  object-fit: cover; // Add a polyfill for this feature
-  overflow: hidden;
-}
-
 
 
 

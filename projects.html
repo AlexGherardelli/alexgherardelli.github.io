@@ -1,26 +1,13 @@
---- 
-layout: page 
+---
+layout: page
 title: What I do
 permalink: /projects/
 ---
 
 <section class="container" id="portfolio">
     <div class="row no-gutter portfolio-row">
+      <h2> Projects here</h2>
 
-        {% for item in site.portfolio %}
-        <div class="col-xs-12 portfolio-item">
-            <a class="portfolio-link" id="{{ item.projectID }}" href="#{{ item.modalID }}"> <img class="img-responsive portfolio-img" src="{{ item.image_path }}" alt="{{ item.project_name }}">
-                <div class="portfolio-item-caption">
-                    <div class="portfolio-item-caption-content">
-                        {% if item.category %}
-                        <div class="project-category">{{ item.category }}</div>
-                        {% endif %}
-                        <h5 class="project-name"> {{ item.project_name }}</h5>
-                    </div>
-                </div>
-            </a>
-        </div>
-        {% endfor %}
     </div>
 </section>
 {% include modals.html %}

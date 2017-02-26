@@ -6,7 +6,9 @@
  // Typography
 @import "helpers/_typography.scss";
 // Layout
-@import "pages/_layout.scss";
+@import "layout/base.scss";
+@import "layout/blog.scss";
+
 // Navigation
 @import "components/_nav.scss";
 // Footer
