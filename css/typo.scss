@@ -10,6 +10,7 @@ h5,
 h6 {
   font-weight: 600;
   color: $primary;
+  margin-top: 2rem;
 }
 
 h4{
@@ -88,9 +89,8 @@ hr {
 .blog-timestamp {
   color: $medium;
   text-transform: uppercase;
-  font-size: 0.8rem;
   font-family: $sans;
-  margin: 0 0 5px 0;
+  margin-bottom: 25px;
   font-weight: 300;
   text-align: right;
 }
