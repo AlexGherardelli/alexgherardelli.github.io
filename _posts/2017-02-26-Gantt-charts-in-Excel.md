@@ -1,9 +1,11 @@
---- 
+---
 layout: post
 title: How to create Gantt charts in Excel
+image_thumb: {site.baseurl}/assets/images/pie-chart.png
+
 ---
 
-I absolutely love Gantt charts.Gantt charts are often an indespensable tool for project managers as they are incredibly useful to visualize project's deadline and breakdown structure. It is a shame that Excel does not provide Gantt charts out of the box, but with a bit of tinkering it is possible to create beautiful Gantt charts in Excel. 
+I absolutely love Gantt charts. Gantt charts are often an indespensable tool for project managers as they are incredibly useful to visualize project's deadline and breakdown structure. It is a shame that Excel does not provide Gantt charts out of the box, but with a bit of tinkering it is possible to create beautiful Gantt charts in Excel.
 
 ## Setting up the data
 On the first row, as header, you should have three columns: start date, duration in days, and end date.
@@ -31,7 +33,7 @@ Your chart has two colors: the default is blue and orange. Click on the blue lin
 
 ## Some tweaks
 
-**Removing spaces at the beginning and end**: Right now our chart has a lot of white space at the beginning and the end of our plotted data. 
+**Removing spaces at the beginning and end**: Right now our chart has a lot of white space at the beginning and the end of our plotted data.
 
 To remove those, you should right click on the earliest starting date and select Format Cell. The number should be formatted as a date. Click on the 'General' category and note the number listed under 'Sample'. It should look something like "43040" (that's the number for 1 November 2017) and we will need it in a moment. Do the same thing for the last ending date of your project and note the number listed under "General".
 Now right click on the dates in the chart and select Format Axis. In the first two fields under Axis Options, Bonds Minimum and Maximum, and insert the two numbers found under the General options in Format Cell, corresponding to your start and end date of the whole project.
@@ -54,6 +56,6 @@ To change the color of the bar, you can simply click on the bars. If you click o
 
 The most design-savvy may want to give the final touches from a graphical software. The easiest way to convert an Excel chart into a picture - either raster or vector - is to copy the graph into PowerPoint. From there you can either save it as an image (a png, jpg or bmp, depending on your preference) or as an emf if you wish to have a vector file.
 
-For example, I saved my chart in an emf file that I later imported in Inscape, an open-source vector graphics software, for the final tweaks. I added few more color options and few other tweaks and saved the final product. 
+For example, I saved my chart in an emf file that I later imported in Inscape, an open-source vector graphics software, for the final tweaks. I added few more color options and few other tweaks and saved the final product.
 
 Done! Your beautiful, informative Gantt chart is now ready!
