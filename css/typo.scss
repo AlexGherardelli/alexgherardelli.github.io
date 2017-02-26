@@ -1,3 +1,7 @@
+body{
+  font-size: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -8,8 +12,25 @@ h6 {
   color: $primary;
 }
 
-p {
+h4{
+  font-size: 1.45rem;
+}
+h5{
+  font-size: 1.45rem;
+}
+h6{
+  font-size: 1.35rem;
+}
+
+p, .content li {
   font-family: 'Merriweather', serif;
+  font-size: .82rem;
+  line-height: 1.7;
+  letter-spacing: 0.01rem;
+}
+p{
+  margin-bottom: 1rem;
+
 }
 
 a {
@@ -33,9 +54,6 @@ hr {
   text-align: center;
 }
 
-.content li {
-  font-family: $serif;
-}
 /* Homepage typography */
 .home-title{
   color: $accent;

@@ -22,7 +22,6 @@ h6 {
 p {
   font-size: 1em;
   /* equivalent to 16px */
-  line-height: 1.25;
   /* equivalent to 20px */
 }
 
@@ -37,11 +36,18 @@ h6 {
 }
 
 p {
-  font-family: 'Merriweather', serif;
+  font-family: $serif;
   margin-bottom: 1rem;
   letter-spacing: 0.01rem;
-  line-height: 2rem;
+  line-height: 1.25;
 }
+
+
+font-family: $serif;
+margin-bottom: 1rem;
+letter-spacing: 0.01rem;
+line-height: 1.25;
+
 
 a {
   text-decoration: none;
@@ -62,11 +68,6 @@ hr {
 
 .section-title {
   text-align: center;
-}
-
-// li element within a content block
-.content li {
-  font-family: $serif;
 }
 
 /* Homepage typography */
