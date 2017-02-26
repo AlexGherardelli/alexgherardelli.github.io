@@ -1,4 +1,4 @@
---- 
+---
 layout: page
 title: Blog
 permalink: /blog/
@@ -12,8 +12,10 @@ permalink: /blog/
                 <div class="col-md-6 col-xs-12">
                     <img class="img-responsive img-circle blog-img" src="{{ post.image_thumb }}" />
                         <h2 class="blog-title">{{ post.title }}</h2>
-                        <h3 class="blog-subtitle">{{ post.excerpt | strip_html }}
-                    </h3>
+                        {% if post.subtitle%}
+                        <h3 class="blog-subtitle"> {{post.subtitle}} </h3>
+                        {% endif %}
+
                 </div>
             </div>
         </a>

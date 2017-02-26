@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A TL;DR guide to git"
+subtitle:  Should I learn Git? Yes, you should.
 image_thumb: http://www.vogue.com/wp-content/uploads/2015/02/10/llamas-and-haircuts-prince-harry1.jpg
 ---
 

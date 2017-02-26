@@ -8,28 +8,6 @@
 /*******************************/
 /*           MIXINS          */
 /*****************************/
-/*******************************/
-/*       TYPOGRPAHY           */
-/*****************************/
-body {
-  font-size: 18px; }
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size-adjust: 0.5; }
-
-/* Body Content */
-p {
-  font-size: 1em;
-  /* equivalent to 16px */
-  line-height: 1.25;
-  /* equivalent to 20px */ }
-
 h1,
 h2,
 h3,
@@ -40,10 +18,7 @@ h6 {
   color: #118ab2; }
 
 p {
-  font-family: 'Merriweather', serif;
-  margin-bottom: 1rem;
-  letter-spacing: 0.01rem;
-  line-height: 2rem; }
+  font-family: 'Merriweather', serif; }
 
 a {
   text-decoration: none;
@@ -100,6 +75,29 @@ hr {
   font-weight: 300;
   text-align: right; }
 
+/* Blog typography */
+.blog-title,
+.blog-subtitle {
+  margin: 0;
+  line-height: 1; }
+
+.blog-title:hover,
+.blog-title:focus,
+.blog-title:active {
+  color: #ef5f5a; }
+
+.blog-subtitle {
+  margin: 10px 0; }
+
+.blog-timestamp {
+  color: #bbb;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  margin: 0 0 5px 0;
+  font-weight: 300;
+  text-align: left; }
+
 /*******************************/
 /*       BASE                 */
 /*****************************/
@@ -143,29 +141,6 @@ section {
 .home-profile {
   margin: -30px auto 30px;
   height: 180px; }
-
-/*******************************/
-/*           BLOG             */
-/*****************************/
-.blog {
-  padding-top: 5%; }
-
-.blog-header {
-  margin: 0;
-  padding: 0; }
-
-.blog-cover {
-  background-size: cover;
-  object-fit: cover;
-  width: 100%;
-  height: 300px; }
-
-.blog-img {
-  width: 100px;
-  height: 100px;
-  margin: 10px auto;
-  object-fit: cover;
-  overflow: hidden; }
 
 /*******************************/
 /*           PROJECTS             */
@@ -247,6 +222,23 @@ section {
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none; }
+
+/*******************************/
+/*           BLOG             */
+/*****************************/
+.blog {
+  padding-top: 5%; }
+
+.blog-header {
+  margin: 0;
+  padding: 0; }
+
+.blog-img {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  object-fit: cover;
+  overflow: hidden; }
 
 /*******************************/
 /*       NAVBAR           */

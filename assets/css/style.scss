@@ -4,7 +4,9 @@
 // Variables, mixins and helper classes
 @import "helpers/_helpers.scss";
  // Typography
-@import "helpers/_typography.scss";
+// @import "helpers/_typography.scss";
+@import "helpers/_typo.scss";
+
 // Layout
 @import "layout/base.scss";
 @import "layout/blog.scss";

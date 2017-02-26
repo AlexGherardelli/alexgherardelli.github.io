@@ -1,11 +1,11 @@
 ---
 layout: post
 title: How to create Gantt charts in Excel
-image_thumb: {site.baseurl}/assets/images/pie-chart.png
+image_thumb: ../assets/images/pie-chart.png
 
 ---
 
-I absolutely love Gantt charts. Gantt charts are often an indespensable tool for project managers as they are incredibly useful to visualize project's deadline and breakdown structure. It is a shame that Excel does not provide Gantt charts out of the box, but with a bit of tinkering it is possible to create beautiful Gantt charts in Excel.
+I absolutely love Gantt charts. Gantt charts are often an indispensable tool for project managers as they are incredibly useful to visualize project's deadline and breakdown structure. It is a shame that Excel does not provide Gantt charts out of the box, but with a bit of tinkering it is possible to create beautiful Gantt charts in Excel.
 
 ## Setting up the data
 On the first row, as header, you should have three columns: start date, duration in days, and end date.
