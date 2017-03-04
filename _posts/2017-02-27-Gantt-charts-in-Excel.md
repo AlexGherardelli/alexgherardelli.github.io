@@ -11,7 +11,7 @@ I absolutely love Gantt charts. Gantt charts are often an indispensable tool for
 On the first row, as header, you should have three columns: start date, duration in days, and end date.
 All tasks should be listed in the first column
 
-![Gantt-01](_post-images/gantt-01.png "Gantt-01")
+![Gantt chart 01](/assets/images/gantt/gantt-01.png){:class="img-responsive"}
 
 
 ## Creating the chart
@@ -22,7 +22,7 @@ You should have an empty chart in front of you. From the Design tab, select Sele
 
 You should now look at a graph that vaguely resembles a Gantt chart, even though we're not quite there yet.
 
-![Gantt-02](_post-images/gantt-02.png "Gantt-02")
+![Gantt chart 02](/assets/images/gantt/gantt-02.png){:class="img-responsive"}
 
 Now it's time to edit the Horizontal (Category) Axis Labels, on the right parte of the Select Source Data window. Click edit and select all your tasks on the first column on the left of your spreadsheet.
 
@@ -30,7 +30,7 @@ You might notice that the labels on the horizontal axis are in the reversed orde
 
 Your chart has two colors: the default is blue and orange. Click on the blue line and from the Format tibe select Shape Fill > No Fill. Aah, now looks much more like a Gantt chart! There are still a few things we can do to make it look nicer.
 
-![Gantt-03](_post-images/gantt-03.png "Gantt-03")
+![Gantt chart 03](/assets/images/gantt/gantt-03.png){:class="img-responsive"}
 
 
 ## Some tweaks
@@ -42,14 +42,14 @@ Now right click on the dates in the chart and select Format Axis. In the first t
 
 **Changing the periodization**: Depending on your project, you might want to break down your projects in weeks, months, quarters or else. The second option in the Axis Options, Units Major, will allow to set the timeframe of your project, expressed in days. Insert 7 for a week, 30 for a month, 183 for quarterly and so on. Leave the Units minor option as is.
 
-![Gantt-05](_post-images/gantt-05.png "Gantt-05")
+![Gantt chart 05](/assets/images/gantt/gantt-05.png){:class="img-responsive"}
 
-# Look and feel
+## Look and feel
 
 The chart is now finished, but it may look a bit... well, dull.
 
 
-![Gantt-04](_post-images/gantt-04.png "Gantt-04")
+![Gantt chart 04](/assets/images/gantt/gantt-04.png){:class="img-responsive"}
 
  Two easy ways to spark it up  would be to change the default font from Calibri to somethign a little bit more exciting. There are a lot of well-designed free fonts you can choose from in websites such as [Google Fonts](https://fonts.google.com) and [Font Squirrel](https://www.fontsquirrel.com/). A particular favourite of mine is Fira Sans, designed for Mozilla, but anything that ranks as popular is usually a safe choice.
 
@@ -57,7 +57,7 @@ To change the color of the bar, you can simply click on the bars. If you click o
 
 The most design-savvy may want to give the final touches from a graphical software. The easiest way to convert an Excel chart into a picture - either raster or vector - is to copy the graph into PowerPoint. From there you can either save it as an image (a png, jpg or bmp, depending on your preference) or as an emf if you wish to have a vector file.
 
-![Gantt-06](_post-images/gantt-06.png "Gantt-06")
+![Gantt chart 06](/assets/images/gantt/gantt-06.png){:class="img-responsive"}
 
 For example, I saved my chart in an emf file that I later imported in Inscape, an open-source vector graphics software, for the final tweaks. I added few more color options and few other tweaks and saved the final product.
 
