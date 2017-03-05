@@ -1,5 +1,7 @@
 # ROADMAP
 
+* Add 404
+* Add image on About page and change bio
 * Add pagination
 * Check typography result
 * Add Behance portfolio
