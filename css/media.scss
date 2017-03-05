@@ -6,6 +6,9 @@
   html{
     font-size: 24px;
   }
+  p, .content li{
+    font-size: .95rem;
+  }
 }
 // Large screens
 @media (min-width: 1200px) {
