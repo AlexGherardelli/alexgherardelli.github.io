@@ -17,6 +17,10 @@ title: Post ideas
 * Alternatives to PowerPoint on the web
 * GIT for humans
 * Review of Git visualization tools
+* How I created an email management system with Google Sheets
+* ~~How to create a Gantt chart with Excel~~
+* 100 days of coding / design
+
 
 
 
