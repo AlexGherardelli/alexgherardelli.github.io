@@ -12,6 +12,12 @@ h6 {
   color: $primary;
   margin-top: 2rem;
 }
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 1.85rem;
+}
 
 h4{
   font-size: 1.45rem;
@@ -25,7 +31,7 @@ h6{
 
 p, .content li {
   font-family: 'Merriweather', serif;
-  font-size: .82rem;
+  font-size: .8rem;
   line-height: 1.7;
   letter-spacing: 0.01rem;
 }
@@ -66,7 +72,8 @@ hr {
     font-family: $sans;
     text-align: center;
     line-height: 1;
-    margin-bottom: 60px;
+    margin: 0 0 60px 0;
+    
 }
 /* Blog typography */
 .blog-title,
