@@ -18,3 +18,12 @@
   object-fit: cover; // Add a polyfill for this feature
   overflow: hidden;
 }
+
+.content-blog a{
+  font-weight: 600;
+  color: $primary;
+}
+.content-blog a:hover, .content-blog a:active{
+  font-weight: 600;
+  color: $accent;
+}
