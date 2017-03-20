@@ -12,7 +12,7 @@ h6 {
   margin-top: 2rem;
 }
 h1{
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 h2{
   font-size: 1.85rem;
@@ -39,17 +39,6 @@ p{
 
 }
 
-.decorated{
-  text-decoration: underline;
-  color: $primary;
-}
-
-.decorated:hover,
-.decorated :active {
-  text-decoration: none;
-  font-weight: 600;
-  color: $primary;
-}
 a{
   text-decoration: none;
   color: inherit;
@@ -145,4 +134,13 @@ hr {
 .portfolio-contacts{
   color: $accent;
   text-decoration: underline;
+}
+
+.content-blog a{
+  font-weight: 600;
+  color: $primary;
+}
+.content-blog a:hover, .content-blog a:active{
+  font-weight: 600;
+  color: $accent;
 }
