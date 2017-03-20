@@ -1,6 +1,5 @@
-body{
-  font-size: 100%;
-}
+
+
 
 h1,
 h2,
@@ -40,7 +39,18 @@ p{
 
 }
 
-a {
+.decorated{
+  text-decoration: underline;
+  color: $primary;
+}
+
+.decorated:hover,
+.decorated :active {
+  text-decoration: none;
+  font-weight: 600;
+  color: $primary;
+}
+a{
   text-decoration: none;
   color: inherit;
 }
@@ -51,6 +61,8 @@ a:active {
   font-weight: 600;
   color: $primary;
 }
+
+
 
 hr {
   width: 30%;
@@ -73,7 +85,7 @@ hr {
     text-align: center;
     line-height: 1;
     margin: 0 0 60px 0;
-    
+
 }
 /* Blog typography */
 .blog-title,
