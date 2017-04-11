@@ -28,9 +28,9 @@
   }
 }
 // Small screens
-@media (min-width 600px) and (max-width: 899px) {
+@media (max-width: 899px) {
   html{
-    font-size: 18px;
+    font-size: 21px;
   }
   .blog-meta p {
     padding: 0 20%;
@@ -43,7 +43,7 @@
     flex-direction: column;
   }
   p, .content-li{
-    font-size: .8rem;
+    font-size: .82rem;
   }
 }
 

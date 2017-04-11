@@ -1,7 +1,8 @@
 ---
 layout: post
-image_thumb: http://kingofwallpapers.com/llama/llama-006.jpg
-title: How to use your favourite apps without admin rights
+image_thumb: ../assets/images/swiss-knife.png
+title: Running apps anywhere, anytime
+subtitle: A smart-ass guide to using your favourite apps without admin rights
 ---
 
 One of the things that really bothers me at work is that I cannot install applications as I like. While I completely understand why IT departments restrict user rights, this means that I have to go through a long bureacratic process just to have some software installed.
