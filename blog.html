@@ -3,8 +3,21 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+{% for post in site.posts %}
+<a class="blog-article" href="{{ post.url }}">
+  <div class="blog-post">
+    <img class="img-responsive img-circle img-round-small" src="{{ post.image_thumb }}" />
+    <div class="blog-title">
+      <h2>{{ post.title }}</h2>
+      {% if post.subtitle%}
+      <h3 class="lighter-heading"> {{post.subtitle}} </h3>
+      {% endif %}
+    </div>
+  </div>
+</a>
 
-<section>
+{% endfor %}
+<!-- <section>
     <div class="container blog">
         {% for post in site.posts %}
         <a class="blog-article" href="{{ post.url }}">
@@ -21,4 +34,4 @@ permalink: /blog/
         </a>
         <hr /> {% endfor %}
     </div>
-</section>
+</section> -->

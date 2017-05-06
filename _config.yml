@@ -28,12 +28,12 @@ timezone:           Europe/Rome
 
 # Collections settings
 collections:
-    # portfolio:
-    #     # permalink: /projects/:path/
+    # work:
+    #     permalink: /projects/:path/
     # projects:
 
 sass:
-  sass_dir: css
+  sass_dir: sass
   style: extended
 
 markdown: kramdown

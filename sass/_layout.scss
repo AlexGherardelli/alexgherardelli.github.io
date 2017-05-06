@@ -1,0 +1,42 @@
+* {
+  color: $dark-grey;
+  font-family: $font-family;
+  box-size: border-box;
+}
+
+html,
+body {
+  // background: red;
+  font-weight: $font-weight-light;
+  font-size: 100%;
+  font-size: 1em;
+  height: 100%;
+  left: 0;
+  line-height: $font-height;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+}
+section{
+  width: 100%;
+  min-height: 80%;
+}
+.container{
+  margin: 0 10px;
+  min-height: 100%;
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    background: $lighter;
+    color: $dark-grey;
+    display: flex;
+}
+
+.footer .row {
+    margin: auto;
+    padding: 20px 0;
+}
