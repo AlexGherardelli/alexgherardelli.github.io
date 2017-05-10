@@ -15,6 +15,12 @@
     color: $accent;
 }
 
+.navbar-toggle {
+  border: 0px;
+}
+.fa-bars{
+  color: $accent;
+}
 // BUTTONS
 .btn {
     margin: 0px 40px;
@@ -53,6 +59,17 @@
 // BLOG POST
 .blog-post{
   display: flex;
+
+  @media screen and (min-width: 990px){
+    .blog-post{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-round-small{
+      margin: 0 auto;
+    }
+  }
 }
 
 // FORMS
