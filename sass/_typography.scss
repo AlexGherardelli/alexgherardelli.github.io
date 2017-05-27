@@ -6,7 +6,7 @@ h3,
 h4 {
     font-weight: 700;
     line-height: 1.2;
-    margin: 1.414em 0 0.5em;
+    margin: 1.2em 0 0.5em;
     color: $primary;
 }
 
@@ -17,6 +17,9 @@ p {
 h1 {
   margin-top: 0;
   font-size: 2.441em;
+  @media screen and (min-width: 990px){
+    margin-top: 1.42rem;
+  }
 }
 
 h2 {font-size: 1.953em;}
@@ -31,9 +34,7 @@ h4 {font-size: 1.25em;}
   @media only screen and (max-width: 500px){
     font-size: 3em;
   }
-
 }
-
 code {
     font-family: "Roboto Mono", monospace;
     margin-bottom: 1.3em;
@@ -52,11 +53,17 @@ a, a:hover{
   line-height: 1;
   margin: 0 0 60px 0;
 }
-.accent {
-    color: $accent;
+.ligher-heading-upper{
+  font-weight: 300;
+  color: $light-grey;
+  text-transform: uppercase;
+  margin: 1.3em 0 0 0;
 }
 
 
+.accent {
+    color: $accent;
+}
 .smaller {
     font-size: 0.707em;
 }

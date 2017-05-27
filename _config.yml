@@ -28,9 +28,10 @@ timezone:           Europe/Rome
 
 # Collections settings
 collections:
-    # work:
-    #     permalink: /projects/:path/
-    # projects:
+    work:
+        # permalink: /projects/:path/
+    projects:
+    past-positions:
 
 sass:
   sass_dir: sass
