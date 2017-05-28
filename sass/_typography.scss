@@ -44,29 +44,3 @@ blockquote {
     font-size: 1.32em;
     font-style: italic;
 }
-a, a:hover{
-  text-decoration: none;
-}
-.lighter-heading{
-  font-weight: 300;
-  color: $light-grey;
-  line-height: 1;
-  margin: 0 0 60px 0;
-}
-.ligher-heading-upper{
-  font-weight: 300;
-  color: $light-grey;
-  text-transform: uppercase;
-  margin: 1.3em 0 0 0;
-}
-
-
-.accent {
-    color: $accent;
-}
-.smaller {
-    font-size: 0.707em;
-}
-.social{
-  margin: 0 20px;
-}
