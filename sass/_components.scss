@@ -23,15 +23,14 @@
 }
 // BUTTONS
 .btn {
-    margin: 0px 40px;
-    // border: 1px $primary solid;
-    width: 150px;
-    height: 40px;
+    // margin: 0px 40px;
+    width: 200px;
+    padding: 10px;
+    margin: 30px 0;
     background: $primary;
     color: white;
     font-weight: 300;
     font-size: 1rem;
-    margin-bottom: 10px;
 }
 .btn:hover,
 .btn:active,
