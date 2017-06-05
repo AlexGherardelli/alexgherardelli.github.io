@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-<section>
+<section class="blog">
     <div class="container">
-        <div class="row content">
-            <div class="col-xs-12 col-md-7 content-blog">
+        <div class="row blog">
+            <div class="col-xs-12 col-md-7">
             <h1>{{ page.title }}</h1>
-                <p class="blog-timestamp">{{ page.date | date: "%d %B %Y" }}</p>
+                <p class="lighter-heading text-right">{{ page.date | date: "%d %B %Y" }}</p>
                 {{ content }}
             </div>
         </div>

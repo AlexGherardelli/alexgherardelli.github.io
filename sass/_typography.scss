@@ -10,10 +10,6 @@ h4 {
     color: $primary;
 }
 
-p {
-    margin-bottom: 1.3em;
-}
-
 h1 {
   margin-top: 0;
   font-size: 2.441em;
@@ -28,6 +24,23 @@ h3 {font-size: 1.563em;}
 
 h4 {font-size: 1.25em;}
 
+p {margin-bottom: 1.3em;}
+
+a:hover{
+  text-decoration: none;
+  font-style: italic;
+}
+
+code {
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 1.3em;
+}
+
+blockquote {
+    font-size: 1.32em;
+    font-style: italic;
+}
+
 .accent{
   color: $accent;
 }
@@ -38,12 +51,8 @@ h4 {font-size: 1.25em;}
     font-size: 3em;
   }
 }
-code {
-    font-family: "Roboto Mono", monospace;
-    margin-bottom: 1.3em;
-}
-
-blockquote {
-    font-size: 1.32em;
-    font-style: italic;
+.lighter-heading{
+  color: $light-grey;
+  font-weight: 300;
+  margin: 0;
 }
