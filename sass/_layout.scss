@@ -20,7 +20,7 @@ body {
 }
 section{
   width: 100%;
-  min-height: 80%;
+  min-height: calc(100vh - 70px);
   margin: 0 10px;
 }
 .main{
@@ -42,7 +42,7 @@ section{
     background: $lighter;
     color: $dark-grey;
     display: flex;
-    margin-top: 3rem;
+    margin-top: 1rem;
 }
 
 .footer .row {
