@@ -4,10 +4,10 @@ title: Contacts
 permalink: /contacts/
 ---
 <br/><br/>
-<p>I'd love to hear from you. If you have questions, comments or would like to discuss a project, feel free to contact me at <a id="contact" href="mailto:alessandra.gherardelli@gmail.com">{{site.author.email}}</a>
+<p>I'd love to hear from you. If you have questions, comments or would like to discuss a project, feel free to contact me at <a id="contact" href="mailto:{{site.author.email}}">{{site.author.email}}</a>
 </p>
 
-<form action="https://formspree.io/d1292593@mvrht.net" method="POST">
+<form action="https://formspree.io/{{site.author.email}}" method="POST">
   <div class="form-group">
     <label for="email">Email address</label>
     <input type="email" class="form-control" id="email" placeholder="j.smith@example.com">
