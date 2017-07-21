@@ -39,8 +39,12 @@ sass:
   style: extended
 
 # Pagination
-paginate: 3
-paginate_path: "/blog/page:num/"
+pagination: 
+  enabled: true
+  per_page: 3
+  permalink: '/:num/'
+  title: ':title'
+  sort_reverse: true
 
 # Markdown
 markdown: kramdown
@@ -51,5 +55,6 @@ kramdown:
   syntax_highlighter: rouge
   
 gems:
-  - jekyll-paginate
   - jekyll-email-protect
+  - jekyll-paginate-v2
+  
