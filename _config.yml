@@ -33,13 +33,22 @@ collections:
     projects:
     past-positions:
 
+# Sass 
 sass:
   sass_dir: sass
   style: extended
 
+# Pagination
+paginate: 3
+paginate_path: "/blog/page:num/"
+
+# Markdown
 markdown: kramdown
 highlighter: rouge
 
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+  
+gems:
+  - jekyll-paginate

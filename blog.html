@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Blog
-permalink: /blog/
 ---
 {% for post in site.posts %}
 <a class="blog-article" href="{{ post.url }}">
   <div class="blog-post">
-    <!--<img class="img-responsive img-circle img-round-small" src="{{ post.image_thumb }}" />-->
+    <img class="img-responsive img-circle img-round-small" src="{{ post.image_thumb }}" />
     <div class="blog-title">
       <h2>{{ post.title }}</h2>
       {% if post.subtitle%}
@@ -17,21 +16,3 @@ permalink: /blog/
 </a>
 
 {% endfor %}
-<!-- <section>
-    <div class="container blog">
-        {% for post in site.posts %}
-        <a class="blog-article" href="{{ post.url }}">
-            <div class="row center text-center">
-                <div class="col-md-6 col-xs-12">
-                    <img class="img-responsive img-circle blog-img" src="{{ post.image_thumb }}" />
-                        <h2 class="blog-title">{{ post.title }}</h2>
-                        {% if post.subtitle%}
-                        <h3 class="blog-subtitle"> {{post.subtitle}} </h3>
-                        {% endif %}
-
-                </div>
-            </div>
-        </a>
-        <hr /> {% endfor %}
-    </div>
-</section> -->
