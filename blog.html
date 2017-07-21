@@ -5,7 +5,6 @@ title: Blog
 {% for post in site.posts %}
 <a class="blog-article" href="{{ post.url }}">
   <div class="blog-post">
-    <img class="img-responsive img-circle img-round-small" src="{{ post.image_thumb }}" />
     <div class="blog-title">
       <h2>{{ post.title }}</h2>
       {% if post.subtitle%}

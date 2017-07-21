@@ -4,7 +4,7 @@ title: Contacts
 permalink: /contacts/
 ---
 <br/><br/>
-<p>I'd love to hear from you. If you have questions, comments or would like to discuss a project, feel free to contact me at <a id="contact" href="mailto:{{site.author.email}}">{{site.author.email}}</a>
+<p>I'd love to hear from you. If you have questions, comments or would like to discuss a project, feel free to <a id="contact" href="mailto:{{ site.author.email | encode_email }}" >email me</a>
 </p>
 
 <form action="https://formspree.io/{{site.author.email}}" method="POST">

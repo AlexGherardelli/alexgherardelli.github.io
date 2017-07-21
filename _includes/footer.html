@@ -5,7 +5,7 @@
                 <p>Alessandra Gherardelli © 2017</p>
                 <div class="social-buttons">
                     {% if site.author.email %}
-                    <a class="no-decoration" href="mailto:{{ site.author.email }}">
+                    <a class="no-decoration" href="mailto:{{ site.author.email | encode_email }}" >
                         <p class="social smaller">Email&nbsp;</p>
                     </a>
                     {% endif %} {% if site.author.facebook %}
