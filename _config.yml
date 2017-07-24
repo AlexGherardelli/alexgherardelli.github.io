@@ -1,7 +1,7 @@
 # Site settings
 
 # Permalink, markdown and highlighter
-permalink: /:day/:month/:year/:title/
+permalink: /blog/:year/:month/:title/
 
 # SEO settings
 title:
@@ -57,4 +57,5 @@ kramdown:
 gems:
   - jekyll-email-protect
   - jekyll-paginate-v2
+  - jekyll-seo-tag
   

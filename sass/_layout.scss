@@ -16,7 +16,7 @@ body {
   margin: 0;
   padding: 0;
   top: 0;
-  width: 100%;
+  min-width: 100%;
 }
 section{
   width: 100%;
@@ -51,4 +51,20 @@ section{
 .footer .row {
     margin: auto;
     padding: 20px 0;
+}
+.fourohfour{
+  min-height: 100%;
+  background: url("../assets/images/alpaca.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.fourohfour-text{
+  position: absolute;
+  top: 50%;
+}
+.fourohfour-text p{
+  color: $accent;
+  font-weight: 600;
 }

@@ -6,12 +6,12 @@
         display: flex;
         justify-content: center;
     }
+    .paginator{
+    text-align: center;
+    }
 }
 @media screen and (min-width: 992px){
     #cv-small{
         display: none;
-    }
-    .paginator{
-    text-align: center;
     }
 }
