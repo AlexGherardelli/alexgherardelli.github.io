@@ -6,34 +6,43 @@
                 <div class="social-buttons">
                     {% if site.author.email %}
                     <a class="no-decoration" href="mailto:{{ site.author.email | encode_email }}" >
-                        <p class="social smaller">Email&nbsp;</p>
+                        <p class="social smaller"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+</p>
                     </a>
                     {% endif %} {% if site.author.facebook %}
                     <a class="no-decoration" href="http://www.facebook.com/{{ site.author.facebook }}">
-                        <p class="social smaller">Facebook&nbsp;</p>
-                    </a> {% endif %} {% if site.author.twitter %}
+                        <p class="social smaller"><i class="fa fa-facebook" aria-hidden="true"></i>
+</p>
+                    </a> {% endif %} 
+                    {% if site.author.twitter %}
                     <a class="no-decoration" href="http://www.twitter.com/{{ site.author.twitter }}">
-                        <p class="social smaller">Twitter&nbsp;</p>
-                    </a> {% endif %} {% if site.author.medium %}
+                        <p class="social smaller"><i class="fa fa-twitter" aria-hidden="true"></i>
+;</p>
+                    </a> {% endif %} 
+                    {% if site.author.medium %}
                     <a  class="no-decoration"href="http://www.medium.com/@{{ site.author.medium }}">
-                        <p class="social smaller">Medium&nbsp;</p>
-                    </a> {% endif %} {% if site.author.linkedin %}
+                        <p class="social smaller"><i class="fa fa-medium" aria-hidden="true"></i>
+</p>
+                    </a> {% endif %} 
+                    {% if site.author.linkedin %}
                     <a class="no-decoration" href="http://www.linkedin.com/in/{{ site.author.linkedin }}">
-                        <p class="social smaller">Linkedin&nbsp;</p>
-                    </a> {% endif %} {% if site.author.tumbler %}
-                    <a class="no-decoration" href="https://{{ site.author.tumblr }}.tumblr.com">
-                        <p class="social smaller">Tumblr&nbsp;</p>
-                    </a> {% endif %} {% if site.author.github %}
+                        <p class="social smaller"><i class="fa fa-linkedin" aria-hidden="true"></i>
+
+</p>
+                    </a> {% endif %} 
+                 {% if site.author.github %}
                     <a class="no-decoration" href="http://github.com/{{ site.author.github}}">
-                        <p class="social smaller">Github&nbsp;</p>
+                        <p class="social smaller"><i class="fa fa-github" aria-hidden="true"></i>
+</p>
                     </a>
                     {% endif %} {% if site.author.dribbble %}
                     <a class="no-decoration" href="https://dribbble.com/{{ site.author.dribbble }}">
-                        <p class="social smaller">Dribbble&nbsp;</p>
+                        <p class="social smaller"><i class="fa fa-dribbble" aria-hidden="true"></i></p>
                     </a>
                     {% endif %} {% if site.author.behance %}
                     <a class="no-decoration" href="https://www.behance.net/{{ site.author.behance }}">
-                        <p class="social smaller">Behance&nbsp;</p>
+                        <p class="social smaller"><i class="fa fa-behance" aria-hidden="true"></i>
+</p>
                     </a>
                     {% endif %}
                 </div>
@@ -42,30 +51,9 @@
     </div>
 </footer>
 <!--jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
-<!--Animated Modals-->
-<script src="{{ site.baseurl }}/assets/js/animatedModal.js-master/animatedModal.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>-->
 <!--Bootstrap Javascript-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>-->
 
 
-<script>
-    $("#project-01").animatedModal({
-        modalTarget: 'modal-01'
-    });
-    $("#project-02").animatedModal({
-        modalTarget: 'modal-02'
-    });
-    $("#project-03").animatedModal({
-        modalTarget: 'modal-03'
-    });
-    $("#project-04").animatedModal({
-        modalTarget: 'modal-04'
-    });
-    $("#project-05").animatedModal({
-        modalTarget: 'modal-05'
-    });
-    $("#project-06").animatedModal({
-        modalTarget: 'modal-06'
-    });
-</script>
+

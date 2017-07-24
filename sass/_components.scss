@@ -28,6 +28,12 @@
   color: $primary;
   
 }
+.fa{
+  margin: 5px;
+}
+.fa:hover, .fa:focus, .fa:active{
+  color: $accent;
+}
 // BUTTONS
 .btn {
     // margin: 0px 40px;
