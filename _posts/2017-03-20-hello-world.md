@@ -2,7 +2,6 @@
 layout: post
 title: "Hello, world!"
 subtitle: A brief presentation on what I will be blabbering about
-image_thumb: ../assets/images/hello.jpg
 ---
 
 I've been wanting to open a blog for quite some time now. So, here I am!
