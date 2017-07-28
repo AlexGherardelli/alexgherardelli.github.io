@@ -58,7 +58,7 @@ gems:
   - jekyll-email-protect
   - jekyll-paginate-v2
   - jekyll-seo-tag
-  - [jekyll-paginate]
+
   
   
   
