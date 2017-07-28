@@ -3,6 +3,7 @@ layout: post
 title: 100 Days of Design
 subtitle: Committing to becoming a Adobe CC pro!
 image_thumb: http://vectorlogo4u.com/wp-content/uploads/2016/03/creative-cloud-cc-vector.png
+published: false
 ---
 After two months of sweating and negotiating, this week I've finally received my Adobe Creative Suite! It required convincing my boss that I really needed them, convincing the communications department that I knew what I was doing and getting the IT department to actually order it and install it for me. Such a bureaucratic working environment!
 Anyway, now that I have the WHOLE suite, I realized how much there's actually to learn! It is not the first time I need to work in design, of course, but for most part so far I've used open source software like Gimp and Inkscape so this is really the first I'm "graduating" to the big industry-standard software.

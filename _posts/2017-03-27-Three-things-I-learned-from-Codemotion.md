@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 3 things I learn from attending my first developer conference
+title: 3 things I learnt from my first tech conference
+subtitle: Insights from a newbie
 ---
 
 So, last week I attended my first tech conference - Codemotion. It has been a great experience and I wanted to share a few thing I learnt in those two challenging and amazing days.
 
 ## 1. Developers should attend a lot of conferences. A. Lot.
- As a self-taught developer, it does not happen too often to be able to confront myself with the rest of the world. I often wonder if I'm progressing too slowly, if I'm any good at building web apps or if I'm learning the right tools and technologies. 
+Being self-taught, it does not happen too often to be able to confront myself with the rest of the world. I often wonder if I'm progressing too slowly, if I'm any good at building web apps or if I'm learning the right tools and technologies. 
  Attending a tech conference is an invaluable opportunity to learn, meet other people with similar interests and understand what it is hot in the developer community. You expose yourself to new technologies, new ideas, new people and this is simply priceless!
 
 ## 2. Challenge yourself at those conference!
