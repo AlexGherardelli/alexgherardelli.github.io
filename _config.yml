@@ -56,7 +56,7 @@ kramdown:
   
 gems:
   - jekyll-email-protect
-  - jekyll-paginate-v2
+  # - jekyll-paginate-v2
   - jekyll-seo-tag
 
   
