@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300,400");
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 1.2em 0 0.5em;
+  color: #118AB2; }
+
+h1 {
+  margin-top: 0;
+  font-size: 2.441em; }
+@media screen and (min-width: 990px) {
+  h1 {
+    margin-top: 1.42rem; } }
+
+h2 {
+  font-size: 1.953em; }
+
+h3 {
+  font-size: 1.563em; }
+
+h4 {
+  font-size: 1.25em; }
+
+p {
+  margin-bottom: 1.3em; }
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  font-weight: 400;
+  color: #118AB2; }
+
+code {
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1.3em; }
+
+blockquote {
+  font-size: 1.32em;
+  font-style: italic; }
+
+.accent {
+  color: #EF605B; }
+
+.larger-heading {
+  font-size: 3.157em;
+  margin-top: 0; }
+@media only screen and (max-width: 500px) {
+  .larger-heading {
+    font-size: 3em; } }
+
+.lighter-heading {
+  color: #b3b3b3;
+  font-weight: 300;
+  margin: -10px 0; }
+
+#contact {
+  font-weight: 600; }
+
+* {
+  color: #555;
+  font-family: "Roboto Slab", serif;
+  box-size: border-box; }
+
+html, body {
+  font-weight: 300;
+  font-size: 100%;
+  font-size: 1em;
+  height: 100%;
+  left: 0;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  min-width: 100%; }
+
+section {
+  width: 100%;
+  min-height: calc(100vh - 70px);
+  margin: 0 10px; }
+
+.main {
+  min-height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+@media only screen and (min-width: 60em) {
+  .main .main {
+    padding: 100px 0; } }
+
+.blog {
+  display: flex;
+  justify-content: center; }
+
+.blog-title {
+  margin-bottom: 10px; }
+
+.paginator {
+  margin: 15% auto; }
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background: #efefef;
+  color: #555;
+  display: flex;
+  margin-top: 1rem; }
+
+.footer .row {
+  margin: auto;
+  padding: 20px 0; }
+
+.fourohfour {
+  min-height: 100%;
+  background: url("../assets/images/alpaca.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+.fourohfour-text {
+  position: absolute;
+  top: 50%; }
+
+.fourohfour-text p {
+  color: #EF605B;
+  font-weight: 600; }
+
+.navbar {
+  background: transparent;
+  color: #555;
+  border: none; }
+
+.navbar-right * {
+  font-size: 1rem;
+  font-weight: 300; }
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #118AB2; }
+
+.navbar-default .navbar-nav > li > a.active {
+  color: #EF605B; }
+
+.navbar-collapse {
+  border-top: none; }
+
+.navbar-toggle {
+  border: 0px; }
+
+.fa-bars {
+  color: #EF605B; }
+
+.fa-chevron-left, .fa-chevron-right {
+  color: #118AB2; }
+
+.fa {
+  margin: 5px; }
+
+.fa:hover, .fa:focus, .fa:active {
+  color: #EF605B; }
+
+.btn {
+  width: 200px;
+  padding: 10px;
+  margin: 30px 0;
+  background: #118AB2;
+  color: white;
+  font-weight: 300;
+  font-size: 1rem; }
+
+.btn:hover, .btn:active, .btn:focus, .btn:target, .btn:active:focus {
+  border: 1px #118AB2 solid;
+  background: transparent;
+  color: #118AB2;
+  text-decoration: none; }
+
+.img-round-large {
+  margin: 5% auto;
+  height: 180px; }
+
+.img-round-small {
+  width: 100px;
+  height: 100px;
+  margin: 5%;
+  object-fit: cover; }
+
+.blog-post {
+  display: flex; }
+@media screen and (min-width: 990px) {
+  .blog-post .blog-post {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .blog-post .img-round-small {
+    margin: 0 auto; } }
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  align-content: space-between; }
+
+@media screen and (max-width: 992px) {
+  #cv-big {
+    display: none; }
+
+  .center {
+    display: flex;
+    justify-content: center; }
+
+  .paginator {
+    text-align: center; } }
+@media screen and (min-width: 992px) {
+  #cv-small {
+    display: none; } }
