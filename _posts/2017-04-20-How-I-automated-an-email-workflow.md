@@ -22,16 +22,17 @@ At this point I knew what features I wanted:
 The breakthrough arrived when I discovered that I could do all the above with Google Sheets, Forms and a bit of Javascript scripting. Now, I know that out there there must be wonderful ready-made email marketing software that would do the job more efficiently, but I had zero budget and I wanted to keep the stack as simple as possible for my teammates' sake. Besides, what would be the fun in it?
 
 So, here's what I did instead: 
-1) First, import all old mailing list into a master spreadsheet, along with indication on their group of appartenence. I ended up with something like this:
+
+1. First, import all old mailing list into a master spreadsheet, along with indication on their group of appartenence. I ended up with something like this:
 
 | Name  | Email             | Group  |
 |-------|-------------------|--------|
 | John  | john@example.com  | GroupA |
 | Jane  | jane@example.com  | GroupB |
 
-2) Then I created a sign up form with Google Forms for all groups, to be imported in the master spreadsheet. You can collect the answers from a Google Form by creating the form inside a spreadsheet and import into the master spreadsheet using the ```IMPORTRANGE()``` function.
+2. Then I created a sign up form with Google Forms for all groups, to be imported in the master spreadsheet. You can collect the answers from a Google Form by creating the form inside a spreadsheet and import into the master spreadsheet using the ```IMPORTRANGE()``` function.
 
-3) The third step was to divide the master spreadsheet in single thematic lists. The general formula to do this is 
+3. The third step was to divide the master spreadsheet in single thematic lists. The general formula to do this is 
 ```
 =SORT(QUERY(IMPORTRANGE("sheet_id", "Column range"), "query")),1, true)
 ```
@@ -45,7 +46,7 @@ At this point I had the basic functionality implemented, but I wanted also to im
 
 Removing people from the list was the hardest part, but I ended up adding one option to the sign-up form - "Delete me" - and inserted this script in all spreadsheet handling Forms.
 
-```javascript 
+```
 /*
 Google App Script function to remove all rows matching a criteria in Google Sheets with Google Apps Script
 */
