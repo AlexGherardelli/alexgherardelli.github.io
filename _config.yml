@@ -5,8 +5,7 @@ permalink: /blog/:year/:month/:title/
 
 # SEO settings
 title:
-description: > # this means to ignore newlines until "baseurl:"
-  A blog on geeky stuff
+description: 
 keywords:
 
 
@@ -48,7 +47,7 @@ pagination:
 
 # Markdown
 markdown: kramdown
-# highlighter: rouge
+highlighter: rouge
 
 kramdown:
   input: GFM
