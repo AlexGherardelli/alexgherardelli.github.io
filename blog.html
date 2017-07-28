@@ -4,7 +4,7 @@ title: Blog
 pagination: 
   enabled: true
 ---
-{% for post in site.posts %}
+{% for post in paginator.posts %}
 <a class="blog-article" href="{{ post.url }}">
   <div class="blog-post">
     <div class="blog-title">
@@ -19,19 +19,19 @@ pagination:
 {% endfor %}
 
 
-<!--<div class="paginator">-->
-<!--{% if paginator.total_pages > 1 %}-->
+<div class="paginator">
+{% if paginator.total_pages > 1 %}
 
-<!--  {% if paginator.previous_page %}-->
+  {% if paginator.previous_page %}
 
-<!--    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}"> -->
-<!--      <i class="fa fa-chevron-left" aria-hidden="true"></i> Previous page </a>-->
-<!--  {% endif %}-->
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}"> 
+      <i class="fa fa-chevron-left" aria-hidden="true"></i> Previous page </a>
+  {% endif %}
   
-<!--    {% if paginator.next_page %}-->
-<!--      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next page  <i class="fa fa-chevron-right" aria-hidden="true"></i>  </a>-->
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next page  <i class="fa fa-chevron-right" aria-hidden="true"></i>  </a>
 
-<!--  {% endif %}-->
+  {% endif %}
 
-<!--{% endif %}-->
-<!--</div>-->
+{% endif %}
+</div>
