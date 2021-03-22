@@ -1,0 +1,27 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+
+<section class="container">
+        <div class="col-md-5 text-center"><h1 class="accent">{{page.title}}</h1>
+        </div>
+        <div class="col-md-7 col-sm-12">
+
+              <h2 class="ligher-heading-upper" >Web development side projects</h32>
+              {% for project in site.projects %}
+                <h3>{{ project.title}}</h3>
+                <p>
+                  {{ project.content }}
+                </p>
+              {% endfor%}
+
+        <a class="btn btn-default" id="cv-small" href="http://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">See my CV</a>
+
+
+
+        </div>
+</section>
+
