@@ -10,3 +10,8 @@ Over the years, I also designed few posters and promotional materials for events
 * [A workshop on protracted crises, held at the United Nations office in Nairobi, 19 September 2016](https://www.behance.net/gallery/55116947/Leaving-no-one-behind-invites-to-CFS-events-on-war)
 * [A side event to the United Nations High Level Political Forum, held at the United Nations headquarters in New York, 17 July 2016](https://www.behance.net/gallery/55116947/Leaving-no-one-behind-invites-to-CFS-events-on-war)
 
+
+RIMA is a FAO project aimed at understanding resilience to food insecurity in the developing world. I helped them effectively present their statistical reports to development practitioners, project managers and policy makers through a set of communications outlets.
+* [Piloting a newsletter with a brand new layout](https://www.behance.net/gallery/55080705/FAO-RIMA-Email-Marketing?isa0=1#)
+* [Brochure on RIMA](http://www.fao.org/3/a-i5298e.pdf)
+* [A new design for presentations](https://www.slideshare.net/FAOoftheUN/resilience-index-measurement-and-analysis-rima)

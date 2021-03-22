@@ -9,7 +9,7 @@ One of the things that really bothers me at work is that I cannot install applic
 
 Not having admin rights in a computer can be quite frequent in other situations as well, such as using a computer in a public library or in an internet cafè. Here are few things you can do to solve this annoying problem!
 
-## 1: The dumb solution: online apps
+## 1: The easy solution: online apps
 Chances are that that software that you run all the time on your computer has an online-only counterpart that works fine for most uses. You can find online convertors, pdf editors, graphic editors, note taking apps, and so much more.
 
 Cloud-based apps are literally **exploding** in the last few years. Just think of the whole Google Apps Suite: you have a document processor, spreadsheet, presentation software, calendar and more that are quite similar to more famous programmes such as Word, Excel or PowerPoint. They also have tons of add-ons to extend them. 
@@ -24,7 +24,7 @@ One of the less known yet useful features of the PortableApp platform is that yo
 
 Portable apps are a precious swissknife that everyone should bring around all the time!
 
-## 3: The genius-like solution: portable OS
+## 3: The ultimate solution: portable OS
 If you are comfortable with getting your hands dirty, this is the ultimate solution: running a full operative system directly from your USB flashdrive. While this requires to mess around with the booting system of the host computer, you'll be able to bring around all your files and applications anywhere, anytime.
 
 The easiest way to create your bootable OS is with [Universal USB Installer](https://www.pendrivelinux.com/). Although some distributions such as Porteus or Puppy Linux are lighter and perform better if run from an USB stick, you can make a portable version of pretty much any Linux distribution. With a large enough USB, you can even run more demanding distros like Ubuntu!
