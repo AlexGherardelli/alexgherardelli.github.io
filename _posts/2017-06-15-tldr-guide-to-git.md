@@ -3,6 +3,8 @@ layout: post
 title: "A TL;DR guide to git"
 subtitle:  Should I learn Git? Yes, you should.
 image_thumb: ../assets/images/git_logo.png
+published: false
+
 ---
 
 ## Should I learn Git?

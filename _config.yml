@@ -4,9 +4,9 @@
 permalink: /blog/:year/:month/:title/
 
 # SEO settings
-title:
+title: Alessandra Gherardelli | Communications + Data + Design
 description: 
-keywords:
+keywords: data, dataviz, tech, design, communications
 
 
 # Author settings
@@ -19,7 +19,8 @@ author:
     # medium:           your-id
     # tumblr:           your-id
     # dribble:          your-id
-    behance:         gherds
+    # tableau:        id
+    # behance:         gherds
     email:           alessandra.gherardelli@gmail.com
 
 # Timezones

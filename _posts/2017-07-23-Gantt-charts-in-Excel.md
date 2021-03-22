@@ -3,6 +3,8 @@ layout: post
 title: How to create Gantt charts in Excel
 subtitle: A tutorial to impress your boss
 image_thumb: ../assets/images/analytic-icon-14.png
+published: true
+
 
 ---
 

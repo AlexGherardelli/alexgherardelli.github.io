@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab:300,400");
+@import url("@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto+Slab:wght@300&family=Roboto:wght@700&display=swap');");
 .flex-row-center {
   display: flex;
   flex-direction: row;
@@ -11,7 +11,11 @@
   justify-content: center;
   align-items: center; }
 
+* {
+  font-family: "Roboto Slab", serif; }
+
 h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   line-height: 1.2;
   margin: 1.2em 0 0.5em;
