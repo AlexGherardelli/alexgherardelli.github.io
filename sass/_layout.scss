@@ -1,6 +1,6 @@
 * {
   color: $dark-grey;
-  font-family: $font-family;
+  font-family: $body-font;
   box-size: border-box;
 }
 
@@ -34,7 +34,7 @@ section{
     }
   }
 }
-.blog{
+.center{
     display: flex;
     justify-content: center;
 }

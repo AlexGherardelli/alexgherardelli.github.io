@@ -89,6 +89,10 @@
 // SOCIAL
 .social-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-content: space-between;
+}
+.fa-2xl { 
+  margin: 10px;
+  font-size: 28px;
 }

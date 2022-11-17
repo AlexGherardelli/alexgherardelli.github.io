@@ -12,15 +12,17 @@ keywords:
 # Author settings
 author:
     name:             Alessandra Gherardelli
-    # facebook:         alexgherardelli
-    # twitter:          your-id
     github:           AlexGherardelli
     linkedin:         alessandragherardelli
+    tableau:          alexgherardelli
     # medium:           your-id
     # tumblr:           your-id
     # dribble:          your-id
-    behance:         gherds
+    # behance:         gherds
     email:           alessandra.gherardelli@gmail.com
+    description:     I bring 8 years of experience in project/product management in the United Nations system.  
+    
+     Currently I work for the World Food Programme (WFP), the leading humanitarian agency fighting hunger in 80+ countries and recipient of the 2020 Nobel Peace Prize.
 
 # Timezones
 timezone:           Europe/Rome
