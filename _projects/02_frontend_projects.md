@@ -1,7 +1,6 @@
 ---
 title: Front-end web development projects
 ---
-In my free time, I love to build small projects to experiment with a design,  explore new technologies and learn new things. Few I’m quite happy with are:
 
 * A [Pomodoro Clock](http://fcc-pomodoroclock.surge.sh/), a time management method to be more productive
 * A [Javascript Calculator](http://fcc-jscalc.surge.sh/)
