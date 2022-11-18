@@ -7,26 +7,26 @@ permalink: /projects/
 
 <section class="container ">
   <div class="row center">
-        <div class="col-md-8 col-sm-12 ">
-          <h1 class="accent larger-heading">{{page.title}}</h1>
-              <!-- <h2 class="ligher-heading-upper" >Current position</h2>
+    <div class="col-md-8 col-sm-12 ">
+      <h1 class="accent larger-heading">{{page.title}}</h1>
+      <!-- <h2 class="ligher-heading-upper" >Current position</h2>
               {% for task in site.work %}
                 {% if task.link %}<a href="{{ task.link }}"> {% endif %} <h3>{{ task.title}}</h3>{% if task.link %}</a>{% endif %}
                 <p>
                   {{ task.content }}
                 </p>
               {% endfor%} -->
+      {% for project in site.projects %}
+      <h2>{{ project.title}}</h2>
+      <p>
+        {{ project.content }}
+      </p>
+      {% endfor%}
+      <a class="btn btn-default" id="cv-small"
+        href="http://www.linkedin.com/in/{{ site.author.linkedin }}"
+        target="_blank">See my CV</a>
 
-              {% for project in site.projects %}
-                <h2>{{ project.title}}</h2>
-                <p>
-                  {{ project.content }}
-                </p>
-              {% endfor%}
-        <a class="btn btn-default" id="cv-small" href="http://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">See my CV</a>
+    </div>
 
-</div>
-
-        </div>
+  </div>
 </section>
-

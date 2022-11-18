@@ -6,22 +6,26 @@ permalink: /contacts/
 
 <section class="container ">
   <div class="row center">
-        <div class="col-md-8 col-sm-12 ">
-          <h1 class="larger-heading accent">{{ page.title }}</h1>
-<p>I'd love to hear from you. If you have questions, comments or would like to discuss a project, feel free to <a id="contact" href="mailto:{{ site.author.email | encode_email }}" >email me</a>
-</p>
+    <div class="col-md-8 col-sm-12 ">
+      <h1 class="larger-heading accent">{{ page.title }}</h1>
+      <p>I'd love to hear from you. If you have questions, comments or would
+        like to discuss a project, feel free to <a id="contact" href="mailto:{{
+          site.author.email | encode_email }}">email me</a>
+      </p>
 
-<form action="https://formspree.io/{{site.author.email}}" method="POST">
-  <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" placeholder="j.smith@example.com">
+      <form action="https://formspree.io/{{site.author.email}}" method="POST">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email"
+            placeholder="j.smith@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" placeholder="Your awesome message"
+            id="message" rows="6"></textarea>
+        </div>
+        <button class="btn bnt-default" type="submit">Send!</button>
+      </form>
+    </div>
   </div>
-    <div class="form-group">
-        <label for="message">Message</label>
-        <textarea class="form-control" placeholder="Your awesome message" id="message" rows="6"></textarea>
-  </div>
-  <button class="btn bnt-default" type="submit">Send!</button>
-</form>
-</div>
-</div>
 </section>
