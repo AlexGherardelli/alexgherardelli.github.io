@@ -2,6 +2,7 @@
 layout: post
 title: 3 things I learnt from my first tech conference
 subtitle: Insights from a newbie
+published: false
 ---
 
 So, last week I attended my first tech conference - Codemotion. It has been a great experience and I wanted to share a few thing I learnt in those two challenging and amazing days.
