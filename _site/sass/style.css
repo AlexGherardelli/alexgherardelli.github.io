@@ -57,7 +57,7 @@ section { width: 100%; min-height: calc(100vh - 70px); margin: 0 10px; }
 
 .paginator { margin: 15% auto; }
 
-.footer { width: 100%; text-align: center; background: #efefef; color: #555; display: flex; margin-top: 1rem; }
+.footer { width: 100%; text-align: center; background: #efefef; color: #555; display: flex; position: fixed; bottom: 0; margin-top: 1rem; }
 
 .footer .row { margin: auto; padding: 20px 0; }
 
