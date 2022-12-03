@@ -97,7 +97,7 @@ section { width: 100%; min-height: calc(100vh - 70px); margin: 0 10px; }
 
 .btn:hover, .btn:active, .btn:focus, .btn:target, .btn:active:focus { border: 1px #555 solid; background: transparent; color: #555; text-decoration: none; }
 
-.img-round-large { margin: 5% auto; height: 180px; }
+.img-round-large { margin: 5% auto; height: 250px; }
 
 .img-round-small { width: 100px; height: 100px; margin: 5%; object-fit: cover; }
 
