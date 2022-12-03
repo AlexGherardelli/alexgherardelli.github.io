@@ -1,7 +1,9 @@
 ---
 layout: post
 title: Automating an email management system
-subtitle: How to stop doing boring tasks at work, sit back and relax
+subtitle: How to stop doing boring tasks at work
+published: true
+
 ---
 
 When I started my job in the Committee on World Food Security, at FAO, I was asked to maintain the very convoluted mailing list system they had. It was all over the place and in text format (sic!). Even when moved to a more manageable Excel format, I was spending 5-7 hours at week working on it - not exactly the most exciting part of my job. So I decided that I had to do something about it!

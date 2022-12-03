@@ -1,10 +1,15 @@
 ---
+<<<<<<< HEAD
 layout: page
+=======
+layout: default
+>>>>>>> b6ba815a9a0edafc3c308a0fb8240712bdab8c27
 title: Projects
 permalink: /projects/
 ---
 
 
+<<<<<<< HEAD
 
       <h1 class="accent larger-heading">{{page.title}}</h1>
       <!-- <h2 class="ligher-heading-upper" >Current position</h2>
@@ -28,3 +33,25 @@ permalink: /projects/
 
   </div>
 </section>
+=======
+<section class="container">
+        <div class="col-md-5 text-center"><h1 class="accent">{{page.title}}</h1>
+        </div>
+        <div class="col-md-7 col-sm-12">
+
+              <h2 class="ligher-heading-upper" >Web development side projects</h32>
+              {% for project in site.projects %}
+                <h3>{{ project.title}}</h3>
+                <p>
+                  {{ project.content }}
+                </p>
+              {% endfor%}
+
+        <a class="btn btn-default" id="cv-small" href="http://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank">See my CV</a>
+
+
+
+        </div>
+</section>
+
+>>>>>>> b6ba815a9a0edafc3c308a0fb8240712bdab8c27
