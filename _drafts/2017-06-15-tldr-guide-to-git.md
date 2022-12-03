@@ -4,10 +4,6 @@ title: "A TL;DR guide to git"
 subtitle:  Should I learn Git? Yes, you should.
 image_thumb: ../assets/images/git_logo.png
 published: false
-<<<<<<< HEAD:_drafts/2017-06-15-tldr-guide-to-git.md
-=======
-
->>>>>>> b6ba815a9a0edafc3c308a0fb8240712bdab8c27:_posts/2017-06-15-tldr-guide-to-git.md
 ---
 
 ## Should I learn Git?
