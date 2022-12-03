@@ -3,7 +3,7 @@
 
 .flex-column-center { display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
-h1, h2, h3, h4 { font-family: "Inter", serif; color: #555; font-weight: 700; line-height: 1; }
+h1, h2, h3, h4, h5, h6 { font-family: "Inter", serif; color: #555; font-weight: 700; line-height: 1; }
 
 p, a, code { font-family: "Merriweather", sans-serif; font-weight: 400; }
 
@@ -16,6 +16,10 @@ h2 { font-size: 1.753em; }
 h3 { font-size: 1.463em; }
 
 h4 { font-size: 1.25em; }
+
+h5 { font-size: 1.18em; }
+
+h6 { font-size: 1em; }
 
 p { margin-bottom: 1.3em; }
 

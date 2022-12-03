@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Merriweather:wght@300&display=swap');
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5, h6{
   font-family: $heading-font;
   color: $primary;
   font-weight: $font-weight-heavy;
@@ -26,6 +26,12 @@ h2 {font-size: 1.753em;}
 h3 {font-size: 1.463em;}
 
 h4 {font-size: 1.25em;
+}
+
+h5 {font-size: 1.18em;
+}
+
+h6 {font-size: 1em;
 }
 
 p {margin-bottom: 1.3em;}
