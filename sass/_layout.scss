@@ -1,3 +1,4 @@
+// GENERAL
 * {
   color: $dark-grey;
   font-family: $body-font;
@@ -18,11 +19,16 @@ body {
   top: 0;
   min-width: 100%;
 }
+
+
 section{
   width: 100%;
-  min-height: calc(100vh - 70px);
-  margin: 0 10px;
+  padding-bottom: 90px;
+  height: 100%;
+  display: block;
 }
+
+
 .main{
   min-height: 70%;
   display: flex;
@@ -38,19 +44,24 @@ section{
     display: flex;
     justify-content: center;
 }
-.blog-title{
-  margin-bottom: 10px;
+
+// BLOG
+.blog-post{
+  margin-top: 25px;
 }
 .paginator{
   margin: 15% auto;
 }
 
+
+//  FOOTER
 .footer {
     width: 100%;
     text-align: center;
     background: $lighter;
     color: $dark-grey;
     display: flex;
+    height: 90px;
     	position: fixed;
 	bottom: 0;
     margin-top: 1rem;
@@ -61,6 +72,9 @@ section{
     margin: auto;
     padding: 20px 0;
 }
+
+
+// 404 PAGE
 .fourohfour{
   min-height: 100%;
   background: url("../assets/images/alpaca.png") no-repeat center center fixed; 
