@@ -2,8 +2,7 @@
 layout: post
 title: "Hello, world!"
 subtitle: Navigating the uncharted waters of self-teaching Math and Computer Science
-published: true
-
+published: false
 ---
 
 I've been wanting to open a blog for quite some time now. So, here I am!
