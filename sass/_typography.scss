@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Merriweather:wght@300&display=swap');
+@use "helpers" as *;
+
 
 h1, h2, h3, h4, h5, h6{
   font-family: $heading-font;
