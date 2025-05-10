@@ -5,7 +5,7 @@ permalink: /blog/:year/:month/:title/
 
 # SEO settings
 title: Alessandra Gherardelli | Product & Project manager
-description:  Alessandra Gherardelli is a product/project manager with 8 years of experience in driving communications and information management projects in the United Nations system
+description:  Alessandra Gherardelli is a product/project manager with 10+ years of experience in driving communications and information management projects in the United Nations system
 keywords: 
 
 
@@ -15,10 +15,6 @@ author:
     github:           AlexGherardelli
     linkedin:         alessandragherardelli
     tableau:          alexgherardelli
-    # medium:           your-id
-    # tumblr:           your-id
-    # dribble:          your-id
-    # behance:         gherds
     email:           alessandra.gherardelli@gmail.com
     description:     I'm a tech-savvy professional with 9+ years of experience driving successful knowledge and information management projects.I currently work for the World Food Programme (WFP), the world's leading humanitarian agency fighting hunger in 80+ countries, and recipient of the 2020 Nobel Peace Prize. In my current role at WFP, I focus in building data-driven products and coordinating capacity development initiatives within the Research, Assessment and Monitoring division.
 
