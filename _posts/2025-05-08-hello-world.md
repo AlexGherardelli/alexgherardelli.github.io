@@ -2,7 +2,7 @@
 layout: post
 title: "Hello, world!"
 subtitle: Documenting my journing as a self-taught learner
-published: true
+published: false
 ---
 
 I've been wanting to open a blog for quite some time now. So, here I am!
